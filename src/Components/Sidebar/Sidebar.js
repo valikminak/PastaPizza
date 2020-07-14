@@ -8,7 +8,7 @@ const Sidebar = () => {
 
     return (
         <div className={styles.sidebar}>
-            <Link to={'/PastaPizza'}>
+            <Link to={'/'}>
                 <div className={styles.sidebarLogo}>
                     <span>P.</span>
                 </div>
