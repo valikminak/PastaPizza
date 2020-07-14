@@ -10,7 +10,6 @@ import Confirm from "./Confirm/Confirm";
 
 const Basket = ({products, totalProductsPrice, deleteProductFromBasket, basketState, allConstructorProducts, isShowConfirm, confirmState,orderedConstructorProducts}) => {
 
-    console.log("RENDER - BASKET");
 
     const deleteFromBasket = (id) => {
         deleteProductFromBasket(id)

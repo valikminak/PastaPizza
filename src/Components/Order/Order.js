@@ -6,9 +6,6 @@ import OrderItem from "./OrderItem";
 
 const Order = memo(({toppings,orderProduct,addProductToBasket,history,basketState})=>{
 
-    console.log("RENDER - ORDER");
-
-
 
     const product = orderProduct && orderProduct.map((product) =>
         <OrderItem toppings={toppings} addProductToBasket={addProductToBasket} product={product} key={product.id}

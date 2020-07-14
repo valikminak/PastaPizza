@@ -3,8 +3,6 @@ import styles from './Header.module.scss'
 
 const Header = ({basketState,basketCount}) => {
 
-    console.log("RENDER - HEADER")
-
     return (
         <div className={styles.header}>
                 <div onClick={()=>basketState(true)} className={styles.headerBasket}>

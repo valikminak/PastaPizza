@@ -6,8 +6,6 @@ import ToppingsProducts from "./ToppingsProducts";
 
 const Accordion = ({ id,count,image,name,sumPrice, checkedProductsIds, allConstructorProducts, deleteFromBasket,checkedConstructorProducts,category, toppings}) => {
 
-    console.log("RENDER - ACCORDION");
-
     const [setActive, setActiveState] = useState('');
     const [setHeight, setHeightState] = useState("0px");
     const content = useRef(null);

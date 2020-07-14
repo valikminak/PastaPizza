@@ -8,8 +8,6 @@ import {NavLink} from "react-router-dom";
 
 const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, addProductToBasket,basketState}) => {
 
-    console.log("RENDER - CONSTRUCTOR");
-
     const [addProductClass, onAddProductClass] = useState([]);
     const [addedRemovedPriceNumber, onAddRemovePriceNumber] = useState(0);
 
@@ -53,13 +51,13 @@ const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, add
             <div className={styles.ingredients}>
                 <div className={styles.ingredientsCategories}>
                     <NavLink activeClassName={styles.activeCategory}
-                             to={"/constructor/vegetables"}><span><SvgVegetable/></span></NavLink>
+                             to={"/PastaPizza/constructor/vegetables"}><span><SvgVegetable/></span></NavLink>
                     <NavLink activeClassName={styles.activeCategory}
-                             to={"/constructor/fish"}><span><SvgFish/></span></NavLink>
+                             to={"/PastaPizza/constructor/fish"}><span><SvgFish/></span></NavLink>
                     <NavLink activeClassName={styles.activeCategory}
-                             to={"/constructor/meat"}><span><SvgMeat/></span></NavLink>
+                             to={"/PastaPizza/constructor/meat"}><span><SvgMeat/></span></NavLink>
                     <NavLink activeClassName={styles.activeCategory}
-                             to={"/constructor/cheese"}><span><SvgCheese/></span></NavLink>
+                             to={"/PastaPizza/constructor/cheese"}><span><SvgCheese/></span></NavLink>
                     <div className={styles.order}>
                          <span className={styles.sumPrice}>
                              Sum {addedRemovedPriceNumber} $
