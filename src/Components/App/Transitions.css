@@ -1,0 +1,8 @@
+.animPages-exit{
+    opacity: 0;
+}
+.animPages-exit-active{
+    opacity: 1;
+    transition: opacity 1s .3s;
+    z-index: 3;
+}

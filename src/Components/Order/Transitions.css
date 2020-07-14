@@ -1,0 +1,10 @@
+
+.animOrder-appear{
+    transform: translateX(-110px) scale(.5);
+}
+
+.animOrder-appear-active{
+    transform: translateX(0) scale(1);
+    transition: transform .7s ease-in;
+}
+

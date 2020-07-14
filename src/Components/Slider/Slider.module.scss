@@ -1,0 +1,14 @@
+.slider{
+  width: 1140px;
+  background-color: green;
+  padding-top: 20px;
+
+  &Item{
+    outline: none;
+
+    & a img{
+      margin-left: 170px;
+
+    }
+  }
+}

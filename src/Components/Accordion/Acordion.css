@@ -1,0 +1,58 @@
+.accordion {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  transition: background-color 0.6s ease;
+  opacity: 0.6;
+}
+.accordion:hover {
+  opacity: 1;
+}
+.accordionWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordionSection {
+  top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.accordionTitle {
+  font-weight: 600;
+  font-size: 14px;
+}
+.accordionIcon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+.accordionContent {
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  border-bottom: 1px solid black;
+}
+.accordionContent__delete {
+  z-index: 99;
+}
+.accordionText {
+  font-weight: 400;
+  font-size: 11px;
+  padding: 10px;
+}
+.accordion button {
+  background-color: #fff;
+  color: white;
+}
+
+.isShowAccordion {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=Acordion.css.map */

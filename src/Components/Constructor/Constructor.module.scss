@@ -1,0 +1,238 @@
+.constructor {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  justify-items: flex-end;
+  margin-left: 180px;
+}
+
+.pizza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+
+  & img {
+    width: 500px;
+  }
+}
+
+
+
+.ingredients {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #9b9b9b;
+  border-radius: 30px;
+  padding: 10px;
+
+
+
+  &Categories {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    & .activeCategory {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 100px;
+      min-height: 80px;
+      cursor: pointer;
+      border-radius: 30px;
+      background-color: #FFDF8A;
+
+      & span {
+        & svg {
+          & path {
+            fill: #ffffff;
+            stroke: #ffffff;
+          }
+
+        }
+      }
+
+    }
+
+    & span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 80px;
+      cursor: pointer;
+      border-radius: 30px;
+      & path {
+        fill: #9b9b9b;
+        stroke: #9b9b9b;
+      }
+      &:hover {
+        background-color: #FFDF8A;
+
+        & svg {
+
+          & path {
+            fill: #ffffff;
+            stroke: #ffffff;
+          }
+        }
+
+      }
+
+    }
+
+    & .order {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      & span {
+        background-color: #fff;
+        cursor: default;
+
+      }
+
+      &Button {
+        color: #ffffff;
+        padding: 15px 30px;
+        background-color: #FF7B6D;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+
+
+  }
+
+
+  .ingredientsProducts::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+  }
+  .ingredientsProducts::-webkit-scrollbar
+  {
+    width: 12px;
+    background-color: #F5F5F5;
+    height: 50%;
+
+  }
+
+  .ingredientsProducts::-webkit-scrollbar-thumb
+  {
+    background-color: #FF7B6D;
+    border-radius: 10px;
+
+  }
+
+  &Products {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    grid-column-gap: 10px;
+    overflow-y: scroll;
+
+
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      min-width: 50px;
+      min-height: 130px;
+
+      & img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    & .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid #9b9b9b;
+      border-radius: 30px;
+      min-width: 106px;
+      margin-bottom: 10px;
+
+      &Count {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        border-radius: 30px;
+
+        & button {
+          border: none;
+          outline: none;
+        }
+
+        & .activeAdded {
+          background-color: #FF7B6D;
+          color: rgba(0, 0, 0, .2);
+
+          &:hover {
+            background-color: #FF7B6D;
+            color: rgba(0, 0, 0, .2);
+            cursor: default;
+          }
+        }
+
+        & .activeRemoved {
+          color: rgba(0, 0, 0, .2);
+
+          &:hover {
+            color: rgba(0, 0, 0, .2);
+            background-color: #F7F5F7;
+            cursor: default;
+          }
+        }
+
+        &__minus {
+          border-bottom-left-radius: 30px;
+          border-top-left-radius: 30px;
+          margin-right: 3px;
+        }
+
+        &__plus {
+          border-bottom-right-radius: 30px;
+          border-top-right-radius: 30px;
+        }
+
+        &__minus, &__plus {
+          background-color: #F7F5F7;
+          text-align: center;
+          width: 100%;
+          font-size: 20px;
+          cursor: pointer;
+
+          &:hover {
+            color: #ffffff;
+            background-color: #FFDF8A;
+          }
+        }
+      }
+
+      &Name {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+

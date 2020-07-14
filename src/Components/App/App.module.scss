@@ -1,0 +1,68 @@
+@import "../../Styles/main.module";
+
+
+.app {
+  display: grid;
+  grid-template: "sidebar header header" auto "sidebar hero hero";
+
+}
+
+.header {
+  grid-area: header;
+
+}
+
+.sidebar {
+  grid-area: sidebar;
+  width: 200px;
+}
+
+.hero {
+  grid-area: hero;
+  width: 500px;
+  height: 500px;
+
+  &Slider {
+    margin-left: 196px;
+  }
+
+  &Footer {
+    position: absolute;
+    height: 205px;
+    display: flex;
+    margin-left: 196px;
+    font-size: 34px;
+    text-transform: uppercase;
+
+    &__descr {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 700px;
+
+      & span {
+        color: green;
+      }
+    }
+
+    &__see {
+      background-color: #BE0002;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      width: 440px;
+
+      & button {
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 20px;
+        color: #ffffff;
+        background-color: #000000;
+        cursor: pointer;
+      }
+    }
+  }
+}

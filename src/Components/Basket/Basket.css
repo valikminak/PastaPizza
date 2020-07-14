@@ -1,0 +1,158 @@
+.basketHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.basketHeader__title {
+  font-size: 28px;
+}
+.basketHeader__hide {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.basketHeader__hide:hover {
+  color: red;
+}
+.basketContent {
+  margin: 15px 0;
+  width: 400px;
+}
+.basketContent__title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 75px 30px 0;
+}
+.basketContent img {
+  width: 50px;
+}
+.basketContent__toppings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.basketContent__accordion {
+  position: relative;
+}
+.basketContent table tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basketContent table tr td {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 75px;
+  min-width: 80px;
+}
+.basketContent table tr .basketContent__image {
+  position: relative;
+}
+.basketContent__empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 200px;
+}
+.basketContent__delete {
+  cursor: pointer;
+}
+.basketContent__delete img {
+  width: 15px;
+}
+.basketTotalPrice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.basketOrderButton {
+  margin-top: 50px;
+}
+.basketOrderButton button {
+  background-color: #FF7B6D;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.toppingsTitle {
+  list-style: none;
+  color: #FF7B6D;
+}
+
+.confirm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.confirmBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.confirmBack:hover {
+  color: red;
+}
+.confirmForm {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+.confirmForm__error {
+  border: 1px solid red;
+}
+.confirmForm .error {
+  position: absolute;
+  top: 10px;
+  left: 165px;
+  color: red;
+  width: 100px;
+}
+.confirm button {
+  margin-top: 50px;
+}
+
+.delete-exit {
+  transform: translateX(0);
+}
+
+.delete-exit-active {
+  transform: translateX(-1000px);
+  transition: transform 500ms ease-in;
+}
+
+.confirm-appear {
+  opacity: 0;
+}
+
+.confirm-appear-done {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.content-appear {
+  opacity: 0;
+}
+
+.content-appear-done {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+/*# sourceMappingURL=Basket.css.map */

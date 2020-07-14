@@ -1,0 +1,13 @@
+.slider {
+  width: 1140px;
+  background-color: green;
+  padding-top: 20px;
+}
+.sliderItem {
+  outline: none;
+}
+.sliderItem a img {
+  margin-left: 170px;
+}
+
+/*# sourceMappingURL=Slider.module.css.map */

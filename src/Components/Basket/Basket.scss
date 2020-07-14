@@ -1,0 +1,186 @@
+.basket {
+  &Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &__title {
+      font-size: 28px;
+    }
+
+    &__hide {
+      cursor: pointer;
+      text-transform: uppercase;
+      &:hover{
+color: red;
+      }
+    }
+  }
+
+  &Content {
+    margin: 15px 0;
+    width: 400px;
+
+    &__title {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      margin: 0 75px 30px 0;
+    }
+
+    & img {
+      width: 50px;
+    }
+
+    &__toppings {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+    &__accordion {
+      position: relative;
+    }
+
+
+    & table {
+      & tr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & td {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          min-height: 75px;
+          min-width: 80px;
+        }
+
+        & .basketContent__image {
+          position: relative;
+        }
+
+      }
+    }
+
+    &__empty {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      height: 200px;
+    }
+
+    &__delete {
+      cursor: pointer;
+
+      & img {
+        width: 15px;
+      }
+    }
+
+  }
+
+  &TotalPrice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  &OrderButton {
+    margin-top: 50px;
+
+    & button {
+      background-color: #FF7B6D;
+      color: #ffffff;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      cursor: pointer;
+    }
+  }
+}
+.toppingsTitle{
+  list-style: none;
+  color: #FF7B6D;
+}
+.confirm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &Back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &Form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+
+
+    &__error {
+      border: 1px solid red;
+    }
+
+    & .error {
+      position: absolute;
+      top: 10px;
+      left: 165px;
+      color: red;
+      width: 100px;
+    }
+  }
+
+  & button {
+    margin-top: 50px;
+  }
+}
+
+
+.delete-exit {
+  transform: translateX(0);
+}
+
+.delete-exit-active {
+  transform: translateX(-1000px);
+  transition: transform 500ms ease-in;
+}
+
+.confirm-appear {
+  opacity: 0;
+}
+
+.confirm-appear-done{
+  opacity: 1;
+  transition: opacity .3s ease-in;
+}
+
+.content-appear {
+  opacity: 0;
+}
+
+.content-appear-done{
+  opacity: 1;
+  transition: opacity .3s ease-in;
+}

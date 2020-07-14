@@ -1,0 +1,118 @@
+.sidebar {
+  background-image: url("https://res.cloudinary.com/minak/image/upload/v1594641694/pastaPizzaSidebar_zxkhmv.png");
+  font-weight: 500;
+  padding-left: 55px;
+  height: 100vh;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: -4px;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.sidebar a {
+  cursor: pointer;
+  color: #000000;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.sidebar a:hover {
+  opacity: 0.6;
+}
+.sidebarLogo {
+  position: absolute;
+  font-size: 40px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  top: -110px;
+  background-color: #FFE9AF;
+  left: -96px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.sidebarLogo a:hover {
+  opacity: 1;
+}
+.sidebarLogo span {
+  position: absolute;
+  right: 78px;
+  bottom: 52px;
+}
+.sidebarFooter {
+  position: absolute;
+  bottom: -250px;
+  left: 150px;
+  width: 471px;
+  height: 390px;
+  border-radius: 50%;
+  background-color: #FCD577;
+}
+.sidebarList {
+  text-transform: uppercase;
+  position: relative;
+}
+.sidebarList .active {
+  color: #ff7b6e;
+}
+.sidebarList li:nth-last-child(n+2) {
+  margin-bottom: 10px;
+}
+
+.sidebarList .active svg .svgGroup__first {
+  transform: translate(-50px, 50px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__second {
+  transform: translate(35px, 50px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__third {
+  transform: translate(-35px, -100px);
+  animation: animLetters 0.4s forwards;
+}
+.sidebarList .active svg .svgGroup__fourth {
+  transform: translate(105px, 100px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__fifth {
+  transform: translate(105px, -100px);
+  animation: animLetters 0.3s forwards;
+}
+.sidebarList .active svg .svgGroup__sixth {
+  transform: translate(-20px, 35px);
+  animation: animLetters 0.6s forwards;
+}
+.sidebarList .active svg .svgGroup__seventh {
+  transform: translate(60px, -75px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__eigth {
+  transform: translate(-30px, 50px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__ninth {
+  transform: translate(60px, -45px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__tenth {
+  transform: translate(-75px, 80px);
+  animation: animLetters 0.5s forwards;
+}
+.sidebarList .active svg .svgGroup__eleventh {
+  transform: translate(30px, 30px);
+  animation: animLetters 0.5s forwards;
+}
+
+@keyframes animLetters {
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */

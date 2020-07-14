@@ -1,0 +1,130 @@
+@import "../../Styles/colors.module";
+
+.sidebar {
+  background-image: url('https://res.cloudinary.com/minak/image/upload/v1594641694/pastaPizzaSidebar_zxkhmv.png');
+  font-weight: 500;
+  padding-left: 55px;
+  height: 100vh;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: -4px;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  & a {
+    cursor: pointer;
+    color: #000000;
+    opacity: 1;
+    transition: all .3s;
+    &:hover{
+      opacity: .6;
+    }
+  }
+  &Logo {
+    position: absolute;
+    font-size: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: -110px;
+    background-color: #FFE9AF;
+    left: -96px;
+    cursor: pointer;
+    transition: all .7s;
+    & a:hover{
+      opacity: 1;
+    }
+
+
+    & span {
+      position: absolute;
+      right: 78px;
+      bottom: 52px;
+    }
+  }
+
+  &Footer {
+    position: absolute;
+    bottom: -250px;
+    left: 150px;
+    width: 471px;
+    height: 390px;
+    border-radius: 50%;
+    background-color: #FCD577;
+
+  }
+
+  &List {
+    text-transform: uppercase;
+    position: relative;
+    & .active {
+      color: rgb(255, 123, 110);
+    }
+    & li:nth-last-child(n+2) {
+      margin-bottom: 10px;
+    }
+
+
+  }
+}
+
+.sidebarList .active svg{
+  & .svgGroup__first{
+    transform: translate(-50px,50px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__second{
+    transform: translate(35px,50px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__third{
+    transform: translate(-35px,-100px);
+    animation: animLetters .4s forwards;
+  }
+  & .svgGroup__fourth{
+    transform: translate(105px,100px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__fifth{
+    transform: translate(105px,-100px);
+    animation: animLetters .3s forwards;
+  }
+  & .svgGroup__sixth{
+    transform: translate(-20px, 35px);
+    animation: animLetters .6s forwards;
+  }
+  & .svgGroup__seventh{
+    transform: translate(60px, -75px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__eigth{
+    transform: translate(-30px, 50px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__ninth{
+    transform: translate(60px, -45px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__tenth{
+    transform: translate(-75px,80px);
+    animation: animLetters .5s forwards;
+  }
+  & .svgGroup__eleventh{
+    transform: translate(30px,30px);
+    animation: animLetters .5s forwards;
+  }
+}
+
+
+@keyframes animLetters {
+  to{
+    transform: translate(0,0);
+  }
+}
+
+
