@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36d0a9b85408f4c1ba77074f926dc2e3",
+    "revision": "fcabc2ae187f9714434ec4c428d4df71",
     "url": "/PastaPizza/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PastaPizza/static/css/2.2cb6c84a.chunk.css"
   },
   {
-    "revision": "b43bf145e810478efc1b",
+    "revision": "3ef8c787eaa79d9a29a3",
     "url": "/PastaPizza/static/css/main.a3936eb3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PastaPizza/static/js/2.a7092c4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b43bf145e810478efc1b",
-    "url": "/PastaPizza/static/js/main.7771c3e0.chunk.js"
+    "revision": "3ef8c787eaa79d9a29a3",
+    "url": "/PastaPizza/static/js/main.e6a0cfa3.chunk.js"
   },
   {
     "revision": "3fc620a55629d9757d07",
