@@ -4,9 +4,6 @@ import {NavLink, Link} from "react-router-dom";
 
 const Sidebar = () => {
 
-    console.log("RENDER - SIDEBAR");
-
-
     return (
         <div className={styles.sidebar}>
             <Link to={'/PastaPizza'}>
