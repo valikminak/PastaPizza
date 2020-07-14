@@ -14,7 +14,7 @@ const Hero = ({products}) => {
                 <div className={styles.heroFooter__descr}>Best constructor pizza<span>	&#160; In Italy</span></div>
                 <div className={styles.heroFooter__see}>
                     <span>See</span>
-                    <Link to={'/PastaPizza/constructor'}> <button>Click here</button></Link>
+                    <Link to={'/constructor'}> <button>Click here</button></Link>
                 </div>
             </div>
         </div>

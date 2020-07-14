@@ -12,7 +12,7 @@ const ItemLayout = ({id,image,price,name,structure}) => {
                 <Link to={`/order/${id}`}><img src={image} alt="product"/></Link>
             </div>
             <div>
-                <Link to={`/PastaPizza/order/${id}`}><span className={styles.productItem__add}>+</span></Link>
+                <Link to={`/order/${id}`}><span className={styles.productItem__add}>+</span></Link>
             </div>
             <div className={styles.productItem__description}>
                 <span className={styles.productItem__price}>$ {price}</span>

@@ -9,7 +9,6 @@ import {Link} from "react-router-dom";
 class SliderMain extends Component {
 
     render() {
-        console.log("RENDER - SLIDER");
         const settings = {
             arrows: false,
             autoplay: true,

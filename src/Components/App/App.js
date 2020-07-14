@@ -63,15 +63,15 @@ class App extends React.Component {
                 <SwitchTransition location={location}>
                     <CSSTransition key={location.key} timeout={1000} delay={300} classNames={'animPages'}>
                         <Switch>
-                            <Route path={'/PastaPizza/products/:product?'}
+                            <Route path={'/products/:product?'}
                                    render={() => <ProductsLayoutContainer />}/>
                         </Switch>
                     </CSSTransition>
                 </SwitchTransition>
                 <Switch>
-                    <Route path={'/PastaPizza'} component={HeroContainer} exact/>
-                    <Route path={'/PastaPizza/constructor/:category?'} render={() => <ConstructorContainer basketState={this.basketState}/>}/>
-                    <Route path={'/PastaPizza/order/:id?'} render={() => <OrderContainer basketState={this.basketState}/>}/>
+                    <Route path={'/'} component={HeroContainer} exact/>
+                    <Route path={'/constructor/:category?'} render={() => <ConstructorContainer basketState={this.basketState}/>}/>
+                    <Route path={'/order/:id?'} render={() => <OrderContainer basketState={this.basketState}/>}/>
                 </Switch>
                 <div>
                     <BasketSection children={<BasketContainer basketState={this.basketState} isShowConfirm={this.state.isShowConfirm} confirmState={this.confirmState}/>}
