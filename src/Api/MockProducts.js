@@ -2,7 +2,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Roberto",
         "id": 1,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644741/PastaPizza/Pizza/pizza-1_ft0obf.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-1_xxvnvm.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, and oregano"
@@ -10,7 +10,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Napoletana",
         "id": 2,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644720/PastaPizza/Pizza/pizza-2_fn0vpw.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-2_akjkdh.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, garlic and basil"
@@ -18,7 +18,7 @@ export const pastaPizzaProducts = [
     {
         "name": "A16",
         "id": 3,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644741/PastaPizza/Pizza/pizza-3_pjsi6b.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-3_cgykd8.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, mushrooms, ham, artichokes, olives, and oregano"
@@ -26,7 +26,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Golden Boy",
         "id": 4,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644728/PastaPizza/Pizza/pizza-4_clpltt.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-4_fqaqgq.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, parmesan, eggs, and bacon"
@@ -34,7 +34,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Tommaso's",
         "id": 5,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644736/PastaPizza/Pizza/pizza-5_dugkiz.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-5_zyxlen.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, oregano, anchovies"
@@ -42,7 +42,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Del Popolo",
         "id": 6,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644737/PastaPizza/Pizza/pizza-6_izp1y8.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-6_yddmgn.png",
         "category": "pizza",
         "price": 14,
         "structure": "Mozzarella, spinach, ricotta cheese, and parmesan"
@@ -50,7 +50,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Delfina",
         "id": 7,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644742/PastaPizza/Pizza/pizza-7_gmh5pn.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-7_zaqf4k.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, sausage and french fries"
@@ -58,7 +58,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Pizzetta ",
         "id": 8,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645624/PastaPizza/Pizza/pizza-8_sxsl0v.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915268/PastaPizza/Pizza/pizza-8_kzvpmr.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, sausage and french fries"
@@ -66,7 +66,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Fiorella",
         "id": 9,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645624/PastaPizza/Pizza/pizza-9_rnxyal.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-9_qa45cl.png",
         "category": "pizza",
         "price": 14,
         "structure": "Olive oil and rosemary"
@@ -74,7 +74,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Little Star",
         "id": 10,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645632/PastaPizza/Pizza/pizza-10_i9mdyz.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-10_bjhlzv.png",
         "category": "pizza",
         "price": 14,
         "structure": "Mozzarella, spinach, ricotta cheese, and parmesan"
@@ -82,7 +82,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Noriega",
         "id": 11,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645628/PastaPizza/Pizza/pizza-11_qhfu73.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-11_g6sc2n.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, ham, and fried egg"
@@ -90,7 +90,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Casey",
         "id": 12,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645627/PastaPizza/Pizza/pizza-12_akgg2b.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-12_tnpvru.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, ham, artichokes, mushrooms, and olives"
@@ -98,7 +98,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Indian ",
         "id": 13,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645624/PastaPizza/Pizza/pizza-13_f9r4xn.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-13_gwazqm.png",
         "category": "pizza",
         "price": 14,
         "structure": "Mozzarella, tomato sauce, seafood and porcino mushrooms"
@@ -106,7 +106,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Gialina ",
         "id": 14,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645625/PastaPizza/Pizza/pizza-14_mq0awh.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-14_okcprg.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, gorgonzola, and olives"
@@ -114,7 +114,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Roberto",
         "id": 15,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645627/PastaPizza/Pizza/pizza-15_wwtsvw.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-15_x3jb2m.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella and Parma ham"
@@ -122,7 +122,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Margherita",
         "id": 16,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645631/PastaPizza/Pizza/pizza-16_qa6dli.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-16_ahm4ld.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, and assorted vegetables"
@@ -130,7 +130,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Marinara",
         "id": 17,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645628/PastaPizza/Pizza/pizza-17_hgxa4v.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915269/PastaPizza/Pizza/pizza-17_vpyqmk.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, parmesan cheese, salami, zucchini, and polenta (boiled cornmeal)"
@@ -138,7 +138,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Fattoria",
         "id": 18,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645629/PastaPizza/Pizza/pizza-18_oagj5m.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-18_fooxik.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, ham, artichokes, mushrooms, and olives"
@@ -146,7 +146,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Americana",
         "id": 19,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645630/PastaPizza/Pizza/pizza-19_obz29b.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-19_zmxncx.png",
         "category": "pizza",
         "price": 14,
         "structure": "Mozzarella, spinach, ricotta cheese, and parmesan"
@@ -154,7 +154,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Valtellina",
         "id": 20,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645630/PastaPizza/Pizza/pizza-20_lq3mgn.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-20_za8cjs.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, peppers, peas, porchetta (Italian spit-roasted pork)"
@@ -162,7 +162,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Ortolana",
         "id": 21,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645630/PastaPizza/Pizza/pizza-21_nsnvls.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-21_ayolmo.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, eggplant, boiled potatoes, and sausage"
@@ -170,7 +170,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Francescana",
         "id": 22,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645632/PastaPizza/Pizza/pizza-22_wggk1d.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-22_bciiyk.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, mushrooms, pepperoni, and Stracchino (soft cheese)"
@@ -178,7 +178,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Padana",
         "id": 23,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645632/PastaPizza/Pizza/pizza-23_nmvegv.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-23_vpldnp.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, oregano, anchovies"
@@ -186,7 +186,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Tedesca",
         "id": 24,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645632/PastaPizza/Pizza/pizza-24_tr5hlc.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915270/PastaPizza/Pizza/pizza-24_gh7es2.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, gorgonzola cheese, radicchio, and parmesan"
@@ -194,7 +194,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Mimosa",
         "id": 25,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645632/PastaPizza/Pizza/pizza-25_jx2s1k.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915271/PastaPizza/Pizza/pizza-25_ffbtr5.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, gorgonzola cheese and speck"
@@ -202,7 +202,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Bismarck",
         "id": 26,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645634/PastaPizza/Pizza/pizza-26_o2zwoe.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915271/PastaPizza/Pizza/pizza-26_wv8fbt.png",
         "category": "pizza",
         "price": 14,
         "structure": "Mozzarella, cream, ham and corn"
@@ -210,7 +210,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Bufalina",
         "id": 27,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594645633/PastaPizza/Pizza/pizza-27_s3mcrj.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915271/PastaPizza/Pizza/pizza-27_eprkwh.png",
         "category": "pizza",
         "price": 14,
         "structure": "Tomato sauce, mozzarella, ham, and fried egg"
@@ -362,7 +362,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Club sandwich",
         "id": 46,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642849/PastaPizza/Sandwiches/sandwich-1_xmxhcu.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915697/PastaPizza/Sandwiches/sandwich-1_wgyifq.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "Fresh, sesame seed-sprinkled bun filled with tiny strands"
@@ -370,7 +370,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Bacon",
         "id": 47,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642843/PastaPizza/Sandwiches/sandwich-2_amsanp.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915697/PastaPizza/Sandwiches/sandwich-2_df7sri.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "Butter, hot sauce, a squeeze of lemon, and a cocktail sauce"
@@ -378,7 +378,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Baloney ",
         "id": 48,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642841/PastaPizza/Sandwiches/sandwich-3_ptcnni.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915697/PastaPizza/Sandwiches/sandwich-3_ced9o5.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "Spices, garlic and ginger bump up the flavour, along with tangy pickled onions and crunchy poppadoms"
@@ -386,7 +386,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Barros Jarpa",
         "id": 49,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642843/PastaPizza/Sandwiches/sandwich-10_x321dp.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915698/PastaPizza/Sandwiches/sandwich-10_koghdz.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "Egg sandwiches can be a bit one dimensional but this turns up the volume in every way with pickly, salty, crunchy hits in every bite."
@@ -394,7 +394,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Beirute",
         "id": 50,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642841/PastaPizza/Sandwiches/sandwich-5_pemfn6.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915697/PastaPizza/Sandwiches/sandwich-5_h0vrpi.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "Our classic steak sandwich is really easy to prepare and dressed with fresh rocket leaves, buttery onions and a good dash of Worcestershire sauce for extra flavour."
@@ -402,7 +402,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Bologna",
         "id": 51,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642851/PastaPizza/Sandwiches/sandwich-6_ao544e.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915698/PastaPizza/Sandwiches/sandwich-6_p8fcth.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "Try all of the good stuff in the deli section stuffed between springy focaccia slices"
@@ -410,7 +410,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Chivito",
         "id": 52,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642842/PastaPizza/Sandwiches/sandwich-7_ehozs6.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915698/PastaPizza/Sandwiches/sandwich-7_nhytrk.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "We’ve added homemade tartare sauce, brioche buns and peppery rocket to posh this version up."
@@ -418,7 +418,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Churrasco",
         "id": 53,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642842/PastaPizza/Sandwiches/sandwich-8_rbyubl.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915698/PastaPizza/Sandwiches/sandwich-8_xluam5.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "This sarnie hails from Louisiana, which is famous for deep-frying its plentiful seafood and stuffing it in baguettes with loads of hot sauce."
@@ -426,7 +426,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Denver",
         "id": 54,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594642843/PastaPizza/Sandwiches/sandwich-9_gqbjrl.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594915698/PastaPizza/Sandwiches/sandwich-9_utmjle.png",
         "category": "sandwiches",
         "price": 10,
         "structure": "A quicker, more economical version of a classic lobster roll. The avocado makes the filling go further"
@@ -434,7 +434,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Tortilla ",
         "id": 55,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641787/PastaPizza/Soups/soup-1_orr37r.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917779/PastaPizza/Soups/soup-1_bzs30j.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Serve a rich and hearty cheesy soup for a comforting cool-weather dinner."
@@ -442,7 +442,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Chowder",
         "id": 56,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641788/PastaPizza/Soups/soup-2_d9rppf.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917779/PastaPizza/Soups/soup-2_dnepoo.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Slow Cooker Chicken, Bacon, and Potato"
@@ -450,7 +450,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Cheesy Potato Soup",
         "id": 57,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641788/PastaPizza/Soups/soup-3_inp1eu.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917779/PastaPizza/Soups/soup-3_vdvunr.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Soulful Chicken"
@@ -458,7 +458,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Soulful Chicken Soup",
         "id": 58,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641788/PastaPizza/Soups/soup-4_lkugmk.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917779/PastaPizza/Soups/soup-4_nxjo3d.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Chicken and Cornbread Dumplings"
@@ -466,7 +466,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Creamy Leek",
         "id": 59,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641788/PastaPizza/Soups/soup-5_jo7qd0.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917779/PastaPizza/Soups/soup-5_np3bwv.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Creamy Leek and Parsnip"
@@ -474,7 +474,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Lentil Soup",
         "id": 60,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641788/PastaPizza/Soups/soup-6_ej9waz.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917779/PastaPizza/Soups/soup-6_nlph9h.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Smoky Ham and Split"
@@ -482,7 +482,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Potato Soup",
         "id": 61,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641789/PastaPizza/Soups/soup-7_ob6q4f.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917780/PastaPizza/Soups/soup-7_blerlw.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Slow Cooker Tuscan White Bean"
@@ -490,7 +490,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Smoked Sausage",
         "id": 62,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641789/PastaPizza/Soups/soup-8_wjehlw.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917780/PastaPizza/Soups/soup-8_sveyaq.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Smoked Sausage Cassoulet"
@@ -498,7 +498,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Slow Cooker Cioppino",
         "id": 63,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641789/PastaPizza/Soups/soup-9_afk2i4.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917780/PastaPizza/Soups/soup-9_sqk6yh.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Tomato-and-Red Pepper"
@@ -506,7 +506,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Italian Wedding Soup",
         "id": 64,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641789/PastaPizza/Soups/soup-10_o67ivu.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917780/PastaPizza/Soups/soup-10_tc8jmx.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Ham, Kale, and White Bean"
@@ -514,7 +514,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Shredded Chicken",
         "id": 65,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594641789/PastaPizza/Soups/soup-11_i2bp0t.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594917780/PastaPizza/Soups/soup-11_qtqair.png",
         "category": "soups",
         "price": 11.5,
         "structure": "Roasted Carrot and Coconut"
@@ -522,7 +522,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Fur coat salad",
         "id": 66,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643067/PastaPizza/Salads/salad-1_unh8ng.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918327/PastaPizza/Salads/salad-1_oyxwni.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Tomato-Red Pepper Gazpacho with Fresh Vegetable"
@@ -530,7 +530,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Olivier",
         "id": 67,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643068/PastaPizza/Salads/salad-2_njbzet.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918327/PastaPizza/Salads/salad-2_y6q2fj.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Meat, fish and veggie options."
@@ -538,7 +538,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Vinaigrette",
         "id": 68,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643069/PastaPizza/Salads/salad-3_yuv7rk.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918327/PastaPizza/Salads/salad-3_alygkk.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Halloumi with juicy pomegranate seeds and the crunch of pumpkin seeds is a moreish combination"
@@ -546,7 +546,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Panzenella",
         "id": 69,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643072/PastaPizza/Salads/salad-4_ch2tat.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918327/PastaPizza/Salads/salad-4_cg7jbp.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Tahini, garlic, lemon and cumin"
@@ -554,7 +554,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Israeli salad",
         "id": 70,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643104/PastaPizza/Salads/salad-5_gcw2eo.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918327/PastaPizza/Salads/salad-5_xzowm4.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Parsley, mint, asparagus and courgette"
@@ -562,7 +562,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Larb",
         "id": 71,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643381/PastaPizza/Salads/salad-6_vwul1t.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-6_roowgf.png",
         "category": "salads",
         "price": 15.2,
         "structure": ""
@@ -570,7 +570,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Waldorf",
         "id": 72,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643860/PastaPizza/Salads/salad-7_v0efem.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-7_be9pdu.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Red onion, nigella seeds, walnuts, rapeseed oil and lemon"
@@ -578,7 +578,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Gado-gado",
         "id": 73,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643858/PastaPizza/Salads/salad-8_hviows.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-8_j2uvcl.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Jerk spice, creamy avocado and exotic"
@@ -586,7 +586,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Dressed herring salad",
         "id": 74,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643862/PastaPizza/Salads/salad-9_nx6ydk.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-9_hkawo5.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Salad of mango, avocado and black beans"
@@ -594,7 +594,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Nicoise salad",
         "id": 75,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643868/PastaPizza/Salads/salad-10_wegygl.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-10_uyqdmp.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Thai basil and coriander, soya beans, carrots and tomatoes"
@@ -602,7 +602,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Tabbouleh",
         "id": 76,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643866/PastaPizza/Salads/salad-11_y07gya.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-11_d9efo6.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Crisp radishes, sugar snap peas, asparagus and Little Gem lettuce"
@@ -610,7 +610,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Fiambre",
         "id": 77,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594643918/PastaPizza/Salads/salad-12_rtc2c7.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918328/PastaPizza/Salads/salad-12_tnnuft.png",
         "category": "salads",
         "price": 15.2,
         "structure": "Radishes, edamame beans, peppers, almonds and herbs, drizzled with a citrus dressing"
@@ -618,7 +618,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Mint Oreo Cake",
         "id": 78,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-1_ko53z0.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-3_wesknw.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Becky Ruff, Monona, Iowa"
@@ -626,7 +626,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Strawberry Cake",
         "id": 79,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-2_b7qlin.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918537/PastaPizza/Desserts/dessert-2_zedbai.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate,peach,vanilla"
@@ -634,7 +634,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Crepe Cake",
         "id": 80,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-3_vkrrol.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918537/PastaPizza/Desserts/dessert-1_yfrakc.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate,lemon,sugar,ice-cream"
@@ -642,7 +642,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Cheesecake Bars",
         "id": 81,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644378/PastaPizza/Desserts/dessert-4_bkdzll.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-5_ise9cq.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate, cherry, vanilla"
@@ -650,7 +650,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Lemon Bars",
         "id": 82,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-5_xal5o1.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-4_fe3fzs.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate, lemon, carrots"
@@ -658,7 +658,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Mousse Cake",
         "id": 83,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-6_w9vd5k.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-6_iooqcx.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate, strawberry,pineapple"
@@ -666,7 +666,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Blueberry Jam",
         "id": 84,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-7_anhbdn.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-7_lwbgpc.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate,blueberry "
@@ -674,7 +674,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Espresso Mascarpone",
         "id": 85,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-8_panif6.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-8_dtsibj.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Coffee,chocolate,cola"
@@ -682,7 +682,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Chocolate Tart",
         "id": 86,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644379/PastaPizza/Desserts/dessert-9_yzzuck.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918538/PastaPizza/Desserts/dessert-9_lbqyzk.png",
         "category": "desserts",
         "price": 11.8,
         "structure": "Chocolate,ice-cream, lemon"
@@ -690,7 +690,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Cola",
         "id": 87,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644319/PastaPizza/Drinks/drinks-1_p1bb0m.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918804/PastaPizza/Drinks/drinks-1_dxqjfi.png",
         "category": "drinks",
         "price": 10.4,
         "structure": ""
@@ -698,7 +698,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Sprite",
         "id": 88,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644319/PastaPizza/Drinks/drinks-2_rxdbf0.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918804/PastaPizza/Drinks/drinks-2_pkqc9c.png",
         "category": "drinks",
         "price": 10.4,
         "structure": ""
@@ -706,7 +706,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Fanta",
         "id": 89,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644320/PastaPizza/Drinks/drinks-3_kvwoze.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594918804/PastaPizza/Drinks/drinks-3_kolzc3.png",
         "category": "drinks",
         "price": 10.4,
         "structure": ""
