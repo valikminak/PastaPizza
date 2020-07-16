@@ -44,7 +44,7 @@ const Accordion = ({ id,count,image,name,sumPrice, checkedProductsIds, allConstr
                 </div>
             </div>
             <div className="basketContent__delete" onClick={() => deleteFromBasket(id)}><img
-                src="https://res.cloudinary.com/minak/image/upload/v1594641692/deleteIcon_fmmphq.svg" alt="Delete"/></div>
+                src="https://res.cloudinary.com/minak/image/upload/v1594641692/PastaPizza/deleteIcon_fmmphq.svg" alt="Delete"/></div>
         </div>
 
     )
