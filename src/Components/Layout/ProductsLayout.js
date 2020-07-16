@@ -4,8 +4,6 @@ import ItemLayout from "./ItemLayout";
 
 const ProductsLayout = ({ name,products }) => {
 
-    console.log("RENDER - PRODUCTS-LAYOUT");
-
     return (
         <>
             <div className={styles.product}>

@@ -218,7 +218,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Milano",
         "id": 28,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644486/PastaPizza/Pasta/pasta-1_lhba2i.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-1_p0hblv.png",
         "category": "pasta",
         "price": 14,
         "structure": "A classic Italian pasta dish consisting of spaghetti tossed with garlic, olive oil, and parsley"
@@ -226,7 +226,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Gnocchi",
         "id": 29,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644480/PastaPizza/Pasta/pasta-2_t0sarb.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914240/PastaPizza/Pasta/pasta-2_iuq56q.png",
         "category": "pasta",
         "price": 14,
         "structure": "Garlic Noodles are sweet, rich, and savory with a strong garlic punch. They make the perfect side dish to any Asian inspired meal."
@@ -234,7 +234,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Linguine",
         "id": 30,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644478/PastaPizza/Pasta/pasta-3_uqe4fd.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914240/PastaPizza/Pasta/pasta-3_peykih.png",
         "category": "pasta",
         "price": 14,
         "structure": "The combination of freshly-made basil pesto, filling pasta, and tender chicken. "
@@ -242,7 +242,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Bucatini",
         "id": 31,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644484/PastaPizza/Pasta/pasta-4_smr213.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914240/PastaPizza/Pasta/pasta-4_oq7aq5.png",
         "category": "pasta",
         "price": 14,
         "structure": "Hair Pasta is made with cherry tomatoes, garlic, and olive oil. You won’t believe how simple and TASTY this recipe is!"
@@ -250,7 +250,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Tagliatelle",
         "id": 32,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644477/PastaPizza/Pasta/pasta-5_ithi86.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914240/PastaPizza/Pasta/pasta-5_gufuvx.png",
         "category": "pasta",
         "price": 14,
         "structure": "Spicy kung pao sauce. Easily add chicken, shrimp, or beef."
@@ -258,7 +258,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Pappardelle",
         "id": 33,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644485/PastaPizza/Pasta/pasta-6_qx5776.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914240/PastaPizza/Pasta/pasta-6_lw6me7.png",
         "category": "pasta",
         "price": 14,
         "structure": "Olives, Garlic, Tomatoes and Capers. Vegan"
@@ -266,7 +266,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Cavatelli",
         "id": 34,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644480/PastaPizza/Pasta/pasta-7_q0fbge.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-7_tloa5i.png",
         "category": "pasta",
         "price": 14,
         "structure": "Garlic, Extra Virgin Olive Oil, Red Pepper & Parsley. Vegan"
@@ -274,7 +274,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Tortellini",
         "id": 35,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644483/PastaPizza/Pasta/pasta-8_zmmjxh.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-8_jhjnlp.png",
         "category": "pasta",
         "price": 14,
         "structure": "Ground Beef, Pork and Tomatoes. Dairy free"
@@ -282,7 +282,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Ravioli",
         "id": 36,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644483/PastaPizza/Pasta/pasta-9_fhihov.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-9_easre1.png",
         "category": "pasta",
         "price": 14,
         "structure": "Peas and Ham"
@@ -290,7 +290,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Macaroni",
         "id": 37,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644484/PastaPizza/Pasta/pasta-10_ehrdsu.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-10_w8pfwc.png",
         "category": "pasta",
         "price": 14,
         "structure": "Garlic, Extra Virgin Olive Oil, Red Pepper & Parsley. Vegan"
@@ -298,7 +298,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Fettuccine",
         "id": 38,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644486/PastaPizza/Pasta/pasta-11_rtcwzx.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-11_knlwhr.png",
         "category": "pasta",
         "price": 14,
         "structure": "Lemon Linguine with Roasted Tomatoes"
@@ -306,7 +306,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Farfalle",
         "id": 39,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644486/PastaPizza/Pasta/pasta-12_dcicx5.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914242/PastaPizza/Pasta/pasta-12_tpguka.png",
         "category": "pasta",
         "price": 14,
         "structure": " French green lentils, walnuts, and cremini mushrooms"
@@ -314,7 +314,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Lasagna",
         "id": 40,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644487/PastaPizza/Pasta/pasta-13_cjxwse.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914241/PastaPizza/Pasta/pasta-13_miwajo.png",
         "category": "pasta",
         "price": 14,
         "structure": "Pasta tossed with crispy bacon in a garlic tomato sauce"
@@ -322,7 +322,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Rigatoni",
         "id": 41,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644489/PastaPizza/Pasta/pasta-14_wdwnlh.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914242/PastaPizza/Pasta/pasta-14_k5h8dj.png",
         "category": "pasta",
         "price": 14,
         "structure": "Cheesy and saucy, in a tomato sauce"
@@ -330,7 +330,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Orecchiette",
         "id": 42,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644488/PastaPizza/Pasta/pasta-15_vhanlc.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914242/PastaPizza/Pasta/pasta-15_xaulkl.png",
         "category": "pasta",
         "price": 14,
         "structure": "With fresh homemade pesto"
@@ -338,7 +338,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Spaghetti",
         "id": 43,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644488/PastaPizza/Pasta/pasta-16_sa9zsm.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914242/PastaPizza/Pasta/pasta-16_bk3w9t.png",
         "category": "pasta",
         "price": 14,
         "structure": "The healthier way to get a creamy pasta fix"
@@ -346,7 +346,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Bigoli",
         "id": 44,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644488/PastaPizza/Pasta/pasta-17_onhx8f.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914242/PastaPizza/Pasta/pasta-17_j4jjw6.png",
         "category": "pasta",
         "price": 14,
         "structure": "Mini sausage meatballs in a tomato pasta sauce"
@@ -354,7 +354,7 @@ export const pastaPizzaProducts = [
     {
         "name": "Anelli",
         "id": 45,
-        "image": "https://res.cloudinary.com/minak/image/upload/v1594644489/PastaPizza/Pasta/pasta-18_n07mca.png",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594914242/PastaPizza/Pasta/pasta-18_dc0vcu.png",
         "category": "pasta",
         "price": 14,
         "structure": "Pasta tossed with crispy bacon in a garlic tomato sauce"
