@@ -10,25 +10,12 @@ const ProductPiecesSectionStyles = styled.div`
   img{
   width:421px;
   }
-  @media (max-width:1100px) {
-  top: 33px;
-    right: 71px;
+  @media (max-width:1400px) {
+  top: 20px;
+    right: -21px;
     img{
-  width:341px;
-  }
-  }
-    @media (max-width:522px) {
-  top: 45px;
-    right: 3px;
-    img{
-  width:290px;
-  }
-  }
-      @media (max-width:370px) {
-  top: 55px;
-    right: -47px;
-    img{
-  width:236px;
+  width:263px;
+       }
   }
   }
 `;

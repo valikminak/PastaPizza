@@ -190,8 +190,31 @@
 
 
 @media (max-width: 1000px) {
-.basket{
-  &Content{
+  .basket {
+    &Content {
+      & table {
+        & tr {
+          & td {
+            min-width: 60px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
   }
 }
+
+@media (max-width: 540px) {
+  .basket {
+    &Content {
+      & table {
+        & tr {
+          & td {
+            min-width: 30px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
 }

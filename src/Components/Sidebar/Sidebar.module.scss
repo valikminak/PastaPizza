@@ -1,19 +1,28 @@
 @import "../../Styles/colors.module";
 
 .sidebar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-image: url('https://res.cloudinary.com/minak/image/upload/v1594971566/PastaPizza/pastaPizzaSidebar_el3bzg.png');
   background-size: cover;
-  font-weight: 500;
   padding-left: 55px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 400px;
   height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+
+  &Wrapper{
+    background-image: url('https://res.cloudinary.com/minak/image/upload/v1594971566/PastaPizza/pastaPizzaSidebar_el3bzg.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
 
   & a {
     cursor: pointer;
@@ -31,10 +40,10 @@
     font-size: 40px;
     width: 250px;
     height: 250px;
-    border-radius: 50%;
-    top: -110px;
-    background-color: #FFE9AF;
     left: -96px;
+    top: -110px;
+    border-radius: 50%;
+    background-color: #FFE9AF;
     cursor: pointer;
     transition: all .7s;
 
@@ -63,10 +72,23 @@
     }
   }
 }
+@media (max-width: 1500px) {
+  .sidebar {
+    width: 300px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 250px;
+  }
+
+}
 
 @media (max-width: 1000px) {
   .sidebar {
     font-size: 12px;
+    width: 200px;
 
     &Logo {
       font-size: 30px;
@@ -74,11 +96,25 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 625px) {
   .sidebar {
-    padding-left: 20px;
-    font-size: 10px;
+    padding-left: 10px;
     &Logo {
+      left: -148px;
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 415px) {
+  .sidebar {
+    font-size: 8px;
+    width: 190px;
+    &Logo {
+      width: 214px;
+      height: 200px;
+      & span{
+        right: 37px;
+      }
     }
   }
 }

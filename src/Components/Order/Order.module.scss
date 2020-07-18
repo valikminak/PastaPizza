@@ -259,35 +259,89 @@
 }
 
 @media (max-width: 750px) {
-.order{
-  &Item{
-    grid-template-columns: 12fr;
-    &Details {
+  .order {
+    margin-left: 100px;
+    height: 600px;
 
-      &__title {
-        font-size: 26px;
-        margin-bottom: 0;
+    &BackToMenu {
+      margin: 0 0 10px 0;
+    }
 
+    &Item {
+      grid-template-columns: 12fr;
+
+      &Details {
+        margin: 0;
+        justify-content: flex-start;
+
+        &__title {
+          font-size: 26px;
+          margin-bottom: 0;
+
+        }
+
+        &__description {
+          font-size: 10px;
+          margin-bottom: 10px;
+          width: 200px;
+        }
       }
-      &__description {
-        font-size: 10px;
-        margin-bottom: 10px;
-        width: 300px;
+
+      &Img {
+        width: 70%;
+        display: inline-block;
       }
-    }
-    &Img{
-      width: 35%;
-    }
-    & img{
-      width: 80%;
+
+      & img {
+        width: 80%;
+      }
     }
   }
-}
-  .size{
+  .size {
     margin-bottom: 0;
   }
-  .price{
+  .price {
     margin: 10px 0;
   }
 }
 
+@media (max-width: 750px) {
+  .order {
+    &BackToMenu {
+    }
+    &Item {
+      &Details {
+
+
+        &__title {
+          font-size: 20px;
+
+        }
+      }
+    }
+  }
+  .size {
+    margin-bottom: 10px;
+
+    &Size {
+      margin-right: 0;
+    }
+
+  }
+}
+
+@media (max-width: 500px) {
+  .order {
+    &BackToMenu {
+    }
+    &Item {
+      &Details {
+
+
+        &__title {
+          font-size: 15px;
+
+        }
+      }
+    }}
+}

@@ -1,9 +1,10 @@
 .hero {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 .heroFooter {
-  position: absolute;
-  height: 53%;
+  height: 100%;
   width: 100%;
   display: flex;
   font-size: 34px;
@@ -12,9 +13,9 @@
 .heroFooter__descr {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 65%;
   background-color: #fff;
+  padding-top: 20px;
 }
 .heroFooter__descr span {
   color: green;
@@ -23,8 +24,8 @@
   background-color: #BE0002;
   display: flex;
   justify-content: center;
-  align-items: center;
   color: #ffffff;
+  padding-top: 20px;
   width: 35%;
 }
 .heroFooter__see button {

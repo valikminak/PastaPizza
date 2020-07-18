@@ -40,6 +40,12 @@ const ProductBasketPiecesSectionStyles = styled.div`
   img{
     width:38px;
     }
+    @media (max-width: 1000px) {
+right: 5px;
+}
+    @media (max-width: 540px) {
+right: 0px;
+}
 `;
 
 

@@ -192,8 +192,19 @@
   }
 }
 @media (max-width: 750px) {
+  .order {
+    margin-left: 100px;
+    height: 600px;
+  }
+  .orderBackToMenu {
+    margin: 0 0 10px 0;
+  }
   .orderItem {
     grid-template-columns: 12fr;
+  }
+  .orderItemDetails {
+    margin: 0;
+    justify-content: flex-start;
   }
   .orderItemDetails__title {
     font-size: 26px;
@@ -202,10 +213,11 @@
   .orderItemDetails__description {
     font-size: 10px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 200px;
   }
   .orderItemImg {
-    width: 35%;
+    width: 70%;
+    display: inline-block;
   }
   .orderItem img {
     width: 80%;
@@ -217,6 +229,23 @@
 
   .price {
     margin: 10px 0;
+  }
+}
+@media (max-width: 750px) {
+  .orderItemDetails__title {
+    font-size: 20px;
+  }
+
+  .size {
+    margin-bottom: 10px;
+  }
+  .sizeSize {
+    margin-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .orderItemDetails__title {
+    font-size: 15px;
   }
 }
 

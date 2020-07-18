@@ -11,7 +11,6 @@
   align-items: center;
   position: relative;
   width: 500px;
-  height: 500px;
 }
 .pizza img {
   width: 100%;
@@ -20,7 +19,7 @@
 .ingredients {
   display: flex;
   width: 90%;
-  height: 490px;
+  height: 520px;
   border: 1px solid #9b9b9b;
   border-radius: 30px;
   padding: 10px;
@@ -171,7 +170,7 @@
   margin: 10px 0;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
   .constructor {
     display: flex;
     justify-content: center;
@@ -181,33 +180,55 @@
   }
 
   .pizza {
-    width: 400px;
-    height: 400px;
+    width: 300px;
   }
 
+  .ingredients {
+    width: 500px;
+    height: 340px;
+  }
+  .ingredientsCategories span {
+    height: 45px;
+  }
   .ingredientsProducts {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    width: 75%;
+    grid-column-gap: 0;
     margin: 0;
-    overflow-x: scroll;
+  }
+  .ingredientsProducts .item {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .ingredientsProducts__image {
+    margin-bottom: 0;
+    min-height: 50px;
+  }
+  .ingredientsProducts__image img {
+    width: 50%;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
   .ingredients {
-    height: 480px;
+    height: 350px;
+  }
+}
+@media (max-width: 660px) {
+  .ingredients {
+    width: 370px;
   }
   .ingredientsProducts {
+    width: 90%;
     grid-template-columns: 6fr 6fr;
   }
-}
-@media (max-width: 522px) {
-  .pizza {
-    width: 310px;
-    height: 380px;
+  .ingredientsProducts .itemName {
+    margin: 5px 0;
+    font-size: 12px;
   }
 }
 @media (max-width: 480px) {
+  .ingredients {
+    width: 250px;
+  }
   .ingredientsProducts {
     grid-template-columns: 12fr;
     justify-items: start;
@@ -217,11 +238,6 @@
   .constructor {
     grid-template-columns: 12fr;
     margin-top: 0;
-  }
-
-  .pizza {
-    width: 270px;
-    height: 350px;
   }
 }
 

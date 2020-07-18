@@ -155,4 +155,17 @@
   transition: opacity 0.3s ease-in;
 }
 
+@media (max-width: 1000px) {
+  .basketContent table tr td {
+    min-width: 60px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 540px) {
+  .basketContent table tr td {
+    min-width: 30px;
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=Basket.css.map */

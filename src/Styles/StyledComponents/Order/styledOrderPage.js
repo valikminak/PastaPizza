@@ -19,6 +19,11 @@ cursor: pointer;
     font-size: 8px;
 
     }
+     @media (max-width:700px) {
+    padding: 5px;
+    font-size: 5px;
+
+    }
 
 
 `;

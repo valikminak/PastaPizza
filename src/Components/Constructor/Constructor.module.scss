@@ -11,7 +11,6 @@
   align-items: center;
   position: relative;
   width: 500px;
-  height: 500px;
 
   & img {
     width: 100%;
@@ -22,7 +21,7 @@
 .ingredients {
   display: flex;
   width: 90%;
-  height: 490px;
+  height: 520px;
   border: 1px solid #9b9b9b;
   border-radius: 30px;
   padding: 10px;
@@ -215,7 +214,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
   .constructor {
     display: flex;
     justify-content: center;
@@ -224,39 +223,64 @@
     margin-top: 0;
   }
   .pizza {
-    width: 400px;
-    height: 400px;
+    width: 300px;
   }
   .ingredients{
+    width: 500px;
+    height: 340px;
+    &Categories{
+      & span{
+        height: 45px;
+      }
+    }
     &Products{
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      width: 75%;
+      grid-column-gap: 0;
       margin: 0;
-      overflow-x: scroll;
+      & .item{
+        padding: 0;
+        margin-bottom: 0;
+      }
+      &__image{
+        margin-bottom: 0;
+        min-height: 50px;
+        & img{
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+
+  .ingredients {
+    height: 350px;
+  }
+}
+
+@media (max-width: 660px) {
+  .ingredients {
+    width: 370px;
+    &Products {
+      width: 90%;
+      grid-template-columns: 6fr 6fr;
+      & .item{
+        &Name{
+          margin: 5px 0;
+          font-size: 12px;
+        }
+      }
     }
   }
 }
 
-@media (max-width: 780px) {
-  .ingredients {
-    height: 480px;
-    &Products {
-      grid-template-columns: 6fr 6fr;
-    }
-  }
-}
-@media (max-width: 522px) {
-  .pizza {
-    width: 310px;
-    height: 380px;
-  }
-}
 @media (max-width: 480px) {
   .ingredients {
+    width: 250px;
     &Products {
       grid-template-columns: 12fr;
       justify-items: start;
+
     }
   }
 }
@@ -265,9 +289,5 @@
   .constructor {
     grid-template-columns: 12fr;
     margin-top: 0;
-  }
-  .pizza {
-    width: 270px;
-    height: 350px;
   }
 }

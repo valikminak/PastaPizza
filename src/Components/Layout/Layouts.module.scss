@@ -119,8 +119,7 @@
 
 @media (max-width: 1200px) {
   .product {
-    left: 100px;
-    width: 1200px;
+    width: 1000px;
 
     &Title {
       top: -50px;
@@ -148,9 +147,8 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .product {
-    left: 50px;
     width: 1000px;
 
     &Title {
@@ -168,8 +166,30 @@
   }
 }
 
+
+@media (max-width: 1000px) {
+
+  .product{
+    width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .product{
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+
+  .product{
+    width: 700px;
+  }
+}
+
 @media (max-width: 700px) {
   .product{
+    width: 700px;
     &List {
       display: grid;
       grid-template-columns: 6fr 6fr;

@@ -6,9 +6,9 @@
   grid-template: "sidebar header header" auto "sidebar hero hero";
   grid-template-rows: 100px 100%;
   grid-template-columns: 3fr 9fr;
+  position: relative;
   max-width: 1882px;
   height: 100vh;
-  overflow: hidden
 }
 
 .header {
