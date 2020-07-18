@@ -166,6 +166,10 @@
     min-width: 30px;
     font-size: 10px;
   }
+
+  .confirmBack {
+    top: -23px;
+  }
 }
 
 /*# sourceMappingURL=Basket.css.map */

@@ -40,8 +40,19 @@
 }
 
 @media (max-width: 1300px) {
+  .hero {
+    margin-top: 300px;
+  }
   .heroFooter {
     font-size: 20px;
+  }
+  .heroFooter__descr {
+    height: 200px;
+    align-items: center;
+  }
+  .heroFooter__see {
+    height: 200px;
+    align-items: center;
   }
   .hero button {
     width: 40px;
@@ -50,6 +61,9 @@
   }
 }
 @media (max-width: 750px) {
+  .hero {
+    margin-top: 20px;
+  }
   .heroFooter {
     font-size: 15px;
   }

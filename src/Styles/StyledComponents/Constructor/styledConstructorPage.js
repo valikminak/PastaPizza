@@ -18,6 +18,14 @@ const ProductPiecesSectionStyles = styled.div`
        }
   }
   }
+    @media (max-width:660px) {
+    top: 8px;
+    right: -135px;
+    img{
+  width:157px;
+       }
+  }
+  }
 `;
 
 

@@ -252,18 +252,49 @@
   }
 }
 @media (max-width: 1000px) {
-
   .ingredients {
     height: 350px;
   }
 }
 
 @media (max-width: 660px) {
+  .pizza{
+    width: 180px;
+    margin-left: 40px;
+  }
   .ingredients {
-    width: 370px;
+    width: 210px;
+    margin-left: 57px;
+    height: 267px;
+    margin-top: 20px;
+    &Categories{
+      width: 35px;
+      margin-right: 7px;
+      .activeCategory {
+        min-height: 45px;
+        min-width: 45px;
+      }
+      & span{
+        height: 100%;
+        width: 100%;
+        & svg{
+          width: 25px;
+        }
+      }
+      & .order{
+        & span{
+          width: 45px;
+          font-size: 10px;
+        }
+        &Button{
+          padding: 5px 5px;
+          font-size: 8px;
+        }
+      }
+    }
     &Products {
-      width: 90%;
-      grid-template-columns: 6fr 6fr;
+      width: 120px;
+      grid-template-columns: 12fr;
       & .item{
         &Name{
           margin: 5px 0;
@@ -274,20 +305,4 @@
   }
 }
 
-@media (max-width: 480px) {
-  .ingredients {
-    width: 250px;
-    &Products {
-      grid-template-columns: 12fr;
-      justify-items: start;
 
-    }
-  }
-}
-
-@media (max-width: 370px) {
-  .constructor {
-    grid-template-columns: 12fr;
-    margin-top: 0;
-  }
-}

@@ -89,10 +89,10 @@
     font-size: 20px;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 450px) {
   .sidebar {
     font-size: 8px;
-    width: 190px;
+    width: 150px;
   }
   .sidebarLogo {
     width: 214px;

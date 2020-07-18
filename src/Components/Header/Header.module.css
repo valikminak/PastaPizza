@@ -30,7 +30,10 @@
   margin-left: 10px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
+  .header {
+    margin-top: 20px;
+  }
   .headerBasket {
     right: 30px;
     font-size: 10px;

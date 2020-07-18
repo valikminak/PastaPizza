@@ -36,8 +36,10 @@
 
 }
 
-@media (max-width: 650px) {
+
+@media (max-width: 750px) {
   .header {
+    margin-top: 20px;
     &Basket {
       right: 30px;
       font-size: 10px;
