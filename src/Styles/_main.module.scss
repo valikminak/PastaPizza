@@ -1,4 +1,4 @@
-
+@import "./colors.module";
 *{
    box-sizing: border-box;
    margin: 0;
@@ -7,6 +7,7 @@
  }
 body{
   font-family: "New York";
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;

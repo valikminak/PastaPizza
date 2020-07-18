@@ -3,9 +3,6 @@ import styles from './Sidebar.module.scss'
 import {NavLink, Link} from "react-router-dom";
 
 const Sidebar = () => {
-
-
-
     return (
         <div className={styles.sidebar}>
             <Link to={'/'}>
@@ -28,7 +25,6 @@ const Sidebar = () => {
                     </NavLink>
                 </li>
             </ul>
-            <div className={styles.sidebarFooter}></div>
         </div>
     )
 };

@@ -1,3 +1,82 @@
+.hero {
+  position: relative;
+}
+.heroFooter {
+  position: absolute;
+  height: 53%;
+  width: 100%;
+  display: flex;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+.heroFooter__descr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  background-color: #fff;
+}
+.heroFooter__descr span {
+  color: green;
+}
+.heroFooter__see {
+  background-color: #BE0002;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  width: 35%;
+}
+.heroFooter__see button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  cursor: pointer;
+}
 
+@media (max-width: 1300px) {
+  .heroFooter {
+    font-size: 20px;
+  }
+  .hero button {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .heroFooter {
+    font-size: 15px;
+  }
+  .hero button {
+    width: 30px;
+    height: 30px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 590px) {
+  .heroFooter {
+    font-size: 10px;
+  }
+  .hero button {
+    width: 25px;
+    height: 25px;
+    font-size: 7px;
+  }
+}
+@media (max-width: 450px) {
+  .heroFooter {
+    font-size: 7px;
+  }
+  .hero button {
+    width: 20px;
+    height: 20px;
+    font-size: 5px;
+  }
+}
 
 /*# sourceMappingURL=Hero.module.css.map */

@@ -2,9 +2,10 @@
 .accordion {
     cursor: pointer;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     height: 75px;
-    align-items: center;
     border: none;
     outline: none;
     background-color: #fff;
@@ -19,7 +20,6 @@
         align-items: center;
     }
     &Section {
-        top: 30px;
         width: 100%;
         display: flex;
         flex-direction: column;

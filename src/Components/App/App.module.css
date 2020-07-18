@@ -6,6 +6,7 @@
 
 body {
   font-family: "New York";
+  overflow-x: hidden;
 }
 
 a {
@@ -24,59 +25,26 @@ button {
 .app {
   display: grid;
   grid-template: "sidebar header header" auto "sidebar hero hero";
+  grid-template-rows: 100px 100%;
+  grid-template-columns: 3fr 9fr;
+  max-width: 1882px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .header {
   grid-area: header;
+  background-color: #fff;
 }
 
 .sidebar {
   grid-area: sidebar;
-  width: 200px;
 }
 
 .hero {
   grid-area: hero;
-  width: 500px;
-  height: 500px;
-}
-.heroSlider {
-  margin-left: 196px;
-}
-.heroFooter {
-  position: absolute;
-  height: 205px;
-  display: flex;
-  margin-left: 196px;
-  font-size: 34px;
-  text-transform: uppercase;
-}
-.heroFooter__descr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 700px;
-}
-.heroFooter__descr span {
-  color: green;
-}
-.heroFooter__see {
-  background-color: #BE0002;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  width: 440px;
-}
-.heroFooter__see button {
-  border: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-left: 20px;
-  color: #ffffff;
-  background-color: #000000;
-  cursor: pointer;
+  width: 100%;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=App.module.css.map */

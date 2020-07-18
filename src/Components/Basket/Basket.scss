@@ -12,15 +12,16 @@
     &__hide {
       cursor: pointer;
       text-transform: uppercase;
-      &:hover{
-color: red;
+
+      &:hover {
+        color: red;
       }
     }
   }
 
   &Content {
     margin: 15px 0;
-    width: 400px;
+    width: 89%;
 
     &__title {
       display: flex;
@@ -107,10 +108,12 @@ color: red;
     }
   }
 }
-.toppingsTitle{
+
+.toppingsTitle {
   list-style: none;
   color: #FF7B6D;
 }
+
 .confirm {
   width: 100%;
   display: flex;
@@ -171,7 +174,7 @@ color: red;
   opacity: 0;
 }
 
-.confirm-appear-done{
+.confirm-appear-done {
   opacity: 1;
   transition: opacity .3s ease-in;
 }
@@ -180,7 +183,15 @@ color: red;
   opacity: 0;
 }
 
-.content-appear-done{
+.content-appear-done {
   opacity: 1;
   transition: opacity .3s ease-in;
+}
+
+
+@media (max-width: 1000px) {
+.basket{
+  &Content{
+  }
+}
 }

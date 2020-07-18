@@ -12,10 +12,18 @@ const BasketSectionStyles = styled.div`
   background-color: #ffffff;
   padding-left:20px;
   border-left: 1px solid #000000;
-  z-index: 2;
+  z-index: 200;
   overflow-y:scroll;
   transition: all .5s;
-
+@media (max-width: 1000px) {
+width: 400px;
+}
+@media (max-width: 800px) {
+width: 300px;
+}
+@media (max-width: 530px) {
+width: 200px;
+}
 `;
 
 export const BasketSection = ({children, isShowBasket}) => {

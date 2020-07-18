@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-const mainSectionStyles = `text-transform: uppercase;
+const mainSectionStyles = `
+text-transform: uppercase;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -13,7 +14,14 @@ cursor: pointer;
 }
 &:hover {
     background-color: #FFDF8C;
-}`;
+}
+    @media (max-width:1100px) {
+    font-size: 8px;
+
+    }
+
+
+`;
 
 
 const SectionSizeButtonStyles = styled.div`
@@ -30,7 +38,7 @@ const SectionToppingsStyles = styled.div`
     ${mainSectionStyles}
 `;
 
-export const SectionSizeButtons = ({children, chosenSize, chooseSize, number,size}) => {
+export const SectionSizeButtons = ({children, chosenSize, chooseSize, number, size}) => {
     return <SectionSizeButtonStyles onClick={() => chooseSize(number)} chosenSize={chosenSize}
                                     number={number} size={size}>{children}</SectionSizeButtonStyles>
 };

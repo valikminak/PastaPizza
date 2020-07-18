@@ -1,9 +1,5 @@
 .order {
   font-weight: 500;
-  position: absolute;
-  width: 1210px;
-  min-height: 717px;
-  left: 100px;
   background-color: #fff;
   overflow: hidden;
 
@@ -12,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 80px 400px;
+    margin: 0 0 80px 100px;
     cursor: pointer;
     transition: all .3s;
 
@@ -44,33 +40,32 @@
     display: grid;
     grid-template-columns: 6fr 6fr;
     justify-items: center;
-    width: 1100px;
-    margin-left: 100px;
+    width: 95%;
+    height: 100%;
 
     &Img {
-      width: 700px;
-      height: 600px;
+      justify-self: start;
+      width: 100%;
     }
 
     & .orderSize {
-      width: 500px;
-      margin-left: 100px;
       transform: rotate(0deg);
+      width: 90%;
       transition: all 1s;
     }
 
     & .orderSizeSmall {
-      width: 400px;
+      width: 80%;
       transform: rotate(-30deg);
     }
 
     & .orderSizeMedium {
-      width: 500px;
+      width: 90%;
       transform: rotate(0deg);
     }
 
     & .orderSizeLarge {
-      width: 550px;
+      width: 100%;
       transform: rotate(30deg);
     }
 
@@ -78,9 +73,9 @@
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      width: 400px;
+      width: 100%;
       flex-direction: column;
-      margin: 50px 0 0 0px;
+      margin: 50px 0 0 0;
 
       &__title {
         font-size: 32px;
@@ -125,7 +120,7 @@
 }
 
 .toppings {
-  width: 100%;
+  width: 90%;
 
   &Title {
     font-size: 11px;
@@ -137,7 +132,6 @@
     grid-template-columns: 4fr 4fr 4fr;
     grid-row-gap: 10px;
     margin-top: 15px;
-    font-size: 12px;
     z-index: 99;
 
   }
@@ -210,4 +204,90 @@
   }
 }
 
+
+@media (max-width: 1450px) {
+  .order {
+    &Item {
+      &Details {
+        margin: 40px 0 0 0;
+
+        &__title {
+          font-size: 28px;
+          margin-bottom: 15px;
+
+        }
+
+        &__description {
+          font-size: 10px;
+          margin-bottom: 45px;
+          width: 300px;
+        }
+      }
+
+    }
+  }
+
+}
+
+@media (max-width: 1100px) {
+  .order {
+    &Item {
+
+      &Details {
+        &__title {
+          font-size: 20px;
+
+        }
+      }
+    }
+  }
+  .toppings {
+
+    &Title {
+      font-size: 11px;
+      color: #FF7B6D;
+    }
+
+    &Items {
+      grid-row-gap: 7px;
+      margin-top: 10px;
+      z-index: 99;
+
+
+    }
+  }
+}
+
+@media (max-width: 750px) {
+.order{
+  &Item{
+    grid-template-columns: 12fr;
+    &Details {
+
+      &__title {
+        font-size: 26px;
+        margin-bottom: 0;
+
+      }
+      &__description {
+        font-size: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+      }
+    }
+    &Img{
+      width: 35%;
+    }
+    & img{
+      width: 80%;
+    }
+  }
+}
+  .size{
+    margin-bottom: 0;
+  }
+  .price{
+    margin: 10px 0;
+  }
+}
 

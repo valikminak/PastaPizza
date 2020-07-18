@@ -18,7 +18,14 @@ class SliderMain extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             draggable: false,
-            className: "slides"
+            className: "slides",
+            responsive: [
+                {
+                    breakpoint: 750,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }]
         };
         return (
             <div className={styles.slider}>
@@ -36,4 +43,5 @@ class SliderMain extends Component {
         );
     }
 }
+
 export default SliderMain
