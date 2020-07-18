@@ -1,9 +1,9 @@
-/* Error: Top-level selectors may not contain the parent selector "&".
- *     ,
- * 311 |   &Size {
- *     |   ^^^^^^
- *     '
- *   order.module.scss 311:3  root stylesheet */
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "src/Styles/mixins";
+ *   |         ^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   order.module.scss 1:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: Top-level selectors may not contain the parent selector "&".\a     \2577 \a 311 \2502    &Size {\d\a     \2502    ^^^^^^\a     \2575 \a   order.module.scss 311:3  root stylesheet';
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"src/Styles/mixins\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   order.module.scss 1:9  root stylesheet";
 }

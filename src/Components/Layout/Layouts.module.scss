@@ -1,3 +1,6 @@
+@import "src/Styles/mixins";
+@import "src/Styles/colors";
+
 .product {
   padding-bottom: 100px;
   position: absolute;
@@ -24,9 +27,7 @@
 
   &Item {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex('',center,column);
     z-index: 2;
 
     & img {
@@ -38,12 +39,10 @@
     }
 
     &__add {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex(center,center);
       width: 60px;
       height: 60px;
-      background-color: #ff7b6e;
+      background-color: $mainRouse;
       font-size: 20px;
       font-weight: 900;
       margin-bottom: 10px;
@@ -60,9 +59,7 @@
     &__description {
       font-family: 'New York Large', sans-serif;
       font-weight: 500;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      @include flex('',center,column);
       width: 80%;
 
     }

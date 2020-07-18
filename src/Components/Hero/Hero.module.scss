@@ -1,3 +1,5 @@
+@import "src/Styles/mixins";
+
 .hero {
   position: relative;
   width: 100%;
@@ -10,11 +12,11 @@
     text-transform: uppercase;
 
     &__descr {
-      display: flex;
-      justify-content: center;
+      @include flex(center);
       width: 65%;
       background-color: #fff;
       padding-top: 20px;
+      height: 100%;
 
       & span {
         color: green;
@@ -23,11 +25,11 @@
 
     &__see {
       background-color: #BE0002;
-      display: flex;
-      justify-content: center;
+      @include flex(center);
       color: #ffffff;
       padding-top: 20px;
       width: 35%;
+      height: 100%;
 
       & button {
         border: none;
@@ -48,7 +50,7 @@
 
 @media (max-width: 1300px) {
   .hero {
-    margin-top: 300px;
+    margin-top: 100px;
 
     &Footer {
       font-size: 20px;

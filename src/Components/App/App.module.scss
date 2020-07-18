@@ -1,4 +1,4 @@
-@import "../../Styles/main.module";
+@import "../../Styles/main";
 
 
 .app {
@@ -25,6 +25,4 @@
 .hero {
   grid-area: hero;
   width: 100%;
-  overflow: hidden;
-
 }

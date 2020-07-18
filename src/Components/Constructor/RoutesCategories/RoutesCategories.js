@@ -6,6 +6,7 @@ import Cheese from "../Categories/Cheese";
 import Meat from "../Categories/Meat";
 
 export const RoutesCategories = ({addProductClass, addProduct, removeProduct, vegetables, fish, cheese, meat,}) => {
+        window.scrollTo(0, 0);
     return (
 
         <Switch>

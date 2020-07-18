@@ -1,50 +1,17 @@
-.header {
-  position: relative;
-}
-.headerBasket {
-  position: absolute;
-  right: 50px;
-  top: 0;
-  font-family: "New York Large", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 12px;
-  cursor: pointer;
-  opacity: 1;
-  transition: all 0.3s;
-}
-.headerBasket:hover {
-  opacity: 0.8;
-}
-.headerBasket__count {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: #FF7B6D;
-  color: #ffffff;
-  margin-left: 10px;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "src/Styles/mixins";
+ *   |         ^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   header.module.scss 1:9  root stylesheet */
 
-@media (max-width: 750px) {
-  .header {
-    margin-top: 20px;
-  }
-  .headerBasket {
-    right: 30px;
-    font-size: 10px;
-  }
-  .headerBasket__count {
-    height: 20px;
-    width: 20px;
-  }
-  .headerBasket img {
-    width: 50px;
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"src/Styles/mixins\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   header.module.scss 1:9  root stylesheet";
 }
-
-/*# sourceMappingURL=Header.module.css.map */

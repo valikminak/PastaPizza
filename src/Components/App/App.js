@@ -1,4 +1,4 @@
-import React from "react";
+import React, {createRef} from "react";
 import {Route, Switch, withRouter} from "react-router";
 import styles from './App.module.scss'
 import './Transitions.css'
@@ -21,6 +21,7 @@ import {BasketSection} from "../../Styles/StyledComponents/Basket/styledBaskedPa
 const Container = styled.div`
 max-width:1882px;
 margin:0 auto;
+overflow-y:${({location}) => location.pathname === "/" || location.pathname.includes("/order") ? "hidden" : "visible"};
 `;
 
 class App extends React.Component {
@@ -51,13 +52,13 @@ class App extends React.Component {
         this.setState({
             isShowConfirm: isShow
         })
-    }
-
+    };
 
     render() {
+
         const {location} = this.props;
         return (
-            <Container>
+            <Container location={location}>
                 <div className={styles.app}>
                     <div className={styles.header}>
                         <HeaderContainer basketState={this.basketState}/>
@@ -78,7 +79,8 @@ class App extends React.Component {
                             <Route path={'/'} component={HeroContainer} exact/>
                             <Route path={'/constructor/:category?'}
                                    render={() => <ConstructorContainer basketState={this.basketState}/>}/>
-                            <Route path={'/order/:id?'} render={() => <OrderContainer basketState={this.basketState}/>}/>
+                            <Route path={'/order/:id?'}
+                                   render={() => <OrderContainer basketState={this.basketState}/>}/>
                         </Switch>
                     </div>
                     <div>

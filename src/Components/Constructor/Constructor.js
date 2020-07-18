@@ -11,6 +11,8 @@ const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, add
     const [addProductClass, onAddProductClass] = useState([]);
     const [addedRemovedPriceNumber, onAddRemovePriceNumber] = useState(0);
 
+
+
     const addProduct = (price, id) => {
         const addition = +(addedRemovedPriceNumber + price).toFixed(1);
         onAddRemovePriceNumber(addition);
@@ -34,6 +36,7 @@ const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, add
         onAddRemovePriceNumber(0);
         onAddProductClass([]);
     };
+
 
     return (
         <div className={styles.constructor}>

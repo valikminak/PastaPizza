@@ -44,7 +44,6 @@ button {
 .hero {
   grid-area: hero;
   width: 100%;
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=App.module.css.map */

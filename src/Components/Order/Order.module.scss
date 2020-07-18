@@ -1,3 +1,6 @@
+@import "src/Styles/mixins";
+@import "src/Styles/colors";
+
 .order {
   font-weight: 500;
   background-color: #fff;
@@ -5,10 +8,8 @@
 
 
   &BackToMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 0 80px 100px;
+    @include flex(space-between,center);
+    margin: 0 0 25px 100px;
     cursor: pointer;
     transition: all .3s;
 
@@ -45,7 +46,7 @@
 
     &Img {
       justify-self: start;
-      width: 100%;
+      width: 90%;
     }
 
     & .orderSize {
@@ -70,11 +71,8 @@
     }
 
     &Details {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      @include flex(center,flex-start,column);
       width: 100%;
-      flex-direction: column;
       margin: 50px 0 0 0;
 
       &__title {
@@ -95,7 +93,7 @@
   &Button {
     color: #ffffff;
     padding: 15px 30px;
-    background-color: #FF7B6D;
+    background-color: $mainRouse;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -107,9 +105,7 @@
 }
 
 .size {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(center,center);
   margin-bottom: 30px;
   font-weight: 500;
 
@@ -124,7 +120,7 @@
 
   &Title {
     font-size: 11px;
-    color: #FF7B6D;
+    color: $mainRouse;
   }
 
   &Items {
@@ -138,10 +134,8 @@
 }
 
 .price {
+  @include flex(center,center);
   margin: 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
 
   &Item {
@@ -150,9 +144,7 @@
   }
 
   &Count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center,center);
     height: 20px;
     background-color: #F7F5F7;
     border-radius: 30px;
@@ -164,7 +156,7 @@
       background-color: #F7F5F7;
 
       &:hover {
-        background-color: #FFDF8C;
+        background-color: $mainYellow;
       }
     }
 
@@ -246,7 +238,7 @@
   .toppings {
     &Title {
       font-size: 11px;
-      color: #FF7B6D;
+      color: $mainRouse;
     }
     &Items {
       grid-row-gap: 7px;

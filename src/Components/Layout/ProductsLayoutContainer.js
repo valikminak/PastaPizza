@@ -6,11 +6,15 @@ import {withRouter} from "react-router";
 import {compose} from "redux";
 
 class ProductsLayoutContainer extends React.Component {
+
+
+
     render() {
+
         const {name, products} = this.props;
         return (
             <>
-                <ProductsLayout name={name} products={products} />
+                <ProductsLayout name={name} products={products}/>
             </>
         )
     }
