@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PastaPizza/static/css/main.3cade84a.chunk.css",
-    "main.js": "/PastaPizza/static/js/main.83b4bbe3.chunk.js",
-    "main.js.map": "/PastaPizza/static/js/main.83b4bbe3.chunk.js.map",
+    "main.js": "/PastaPizza/static/js/main.e6b64337.chunk.js",
+    "main.js.map": "/PastaPizza/static/js/main.e6b64337.chunk.js.map",
     "runtime-main.js": "/PastaPizza/static/js/runtime-main.3baa6cef.js",
     "runtime-main.js.map": "/PastaPizza/static/js/runtime-main.3baa6cef.js.map",
     "static/css/2.2cb6c84a.chunk.css": "/PastaPizza/static/css/2.2cb6c84a.chunk.css",
     "static/js/2.1f90b807.chunk.js": "/PastaPizza/static/js/2.1f90b807.chunk.js",
     "static/js/2.1f90b807.chunk.js.map": "/PastaPizza/static/js/2.1f90b807.chunk.js.map",
     "index.html": "/PastaPizza/index.html",
-    "precache-manifest.dcc069d67266ed344134e23c7bc64cc3.js": "/PastaPizza/precache-manifest.dcc069d67266ed344134e23c7bc64cc3.js",
+    "precache-manifest.e6c8fefa305c14a34c9b2ed0a9745a2b.js": "/PastaPizza/precache-manifest.e6c8fefa305c14a34c9b2ed0a9745a2b.js",
     "service-worker.js": "/PastaPizza/service-worker.js",
     "static/css/2.2cb6c84a.chunk.css.map": "/PastaPizza/static/css/2.2cb6c84a.chunk.css.map",
     "static/css/main.3cade84a.chunk.css.map": "/PastaPizza/static/css/main.3cade84a.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.2cb6c84a.chunk.css",
     "static/js/2.1f90b807.chunk.js",
     "static/css/main.3cade84a.chunk.css",
-    "static/js/main.83b4bbe3.chunk.js"
+    "static/js/main.e6b64337.chunk.js"
   ]
 }
