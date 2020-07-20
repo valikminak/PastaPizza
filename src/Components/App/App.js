@@ -21,7 +21,7 @@ import {BasketSection} from "../../Styles/StyledComponents/Basket/styledBaskedPa
 const Container = styled.div`
 max-width:1882px;
 margin:0 auto;
-overflow-y:${({location}) => location.pathname === "/PastaPizza" || location.pathname.includes("/order")||location.pathname.includes("/constructor") ? "hidden" : "visible"};
+overflow-y:${({location}) => location.pathname === "/PastaPizza/" || location.pathname === "/PastaPizza" || location.pathname.includes("/order") || location.pathname.includes("/constructor") ? "hidden" : "visible"};
 `;
 
 class App extends React.Component {
@@ -53,7 +53,6 @@ class App extends React.Component {
             isShowConfirm: isShow
         })
     };
-
 
 
     render() {
