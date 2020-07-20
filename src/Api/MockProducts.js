@@ -1129,7 +1129,7 @@ export const pastaPizzaProducts = [
         "id": 136,
         "name": "Gouda",
         "price": 1.3,
-        "image": "/images/Constructor/cheese/gouda.svg",
+        "image": "https://res.cloudinary.com/minak/image/upload/v1594647073/PastaPizza/Constructor/cheese/gouda_ds3r50.svg",
         "imagePiece": "https://res.cloudinary.com/minak/image/upload/v1594647097/PastaPizza/Constructor/cheese/piece/goudaPiece_uijtem.png",
         "category": "cheese",
         "constructor": true

@@ -7,11 +7,8 @@ import {NavLink} from "react-router-dom";
 
 
 const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, addProductToBasket,basketState}) => {
-
     const [addProductClass, onAddProductClass] = useState([]);
     const [addedRemovedPriceNumber, onAddRemovePriceNumber] = useState(0);
-
-
 
     const addProduct = (price, id) => {
         const addition = +(addedRemovedPriceNumber + price).toFixed(1);
@@ -36,7 +33,6 @@ const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, add
         onAddRemovePriceNumber(0);
         onAddProductClass([]);
     };
-
 
     return (
         <div className={styles.constructor}>

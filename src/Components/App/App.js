@@ -1,4 +1,4 @@
-import React, {createRef} from "react";
+import React from "react";
 import {Route, Switch, withRouter} from "react-router";
 import styles from './App.module.scss'
 import './Transitions.css'
@@ -21,7 +21,7 @@ import {BasketSection} from "../../Styles/StyledComponents/Basket/styledBaskedPa
 const Container = styled.div`
 max-width:1882px;
 margin:0 auto;
-overflow-y:${({location}) => location.pathname === "/" || location.pathname.includes("/order") ? "hidden" : "visible"};
+overflow-y:${({location}) => location.pathname === "/PastaPizza" || location.pathname.includes("/order")||location.pathname.includes("/constructor") ? "hidden" : "visible"};
 `;
 
 class App extends React.Component {
@@ -54,8 +54,9 @@ class App extends React.Component {
         })
     };
 
-    render() {
 
+
+    render() {
         const {location} = this.props;
         return (
             <Container location={location}>
@@ -76,7 +77,7 @@ class App extends React.Component {
                             </CSSTransition>
                         </SwitchTransition>
                         <Switch>
-                            <Route path={'/'} component={HeroContainer} exact/>
+                            <Route path={'/PastaPizza'} component={HeroContainer} exact={true}/>
                             <Route path={'/constructor/:category?'}
                                    render={() => <ConstructorContainer basketState={this.basketState}/>}/>
                             <Route path={'/order/:id?'}

@@ -2,6 +2,9 @@ import React from "react";
 import ConstructorProducts from "../ConstructorProducts";
 
 const Vegetables = ({vegetables, addProductClass, addProduct, removeProduct}) => {
+
+
+
     return (
         <>
             {vegetables.map((product) => <ConstructorProducts

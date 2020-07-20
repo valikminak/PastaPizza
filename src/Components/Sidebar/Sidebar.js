@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className={styles.sidebarWrapper}>
             <div className={styles.sidebar}>
-                <Link to={'/'}>
+                <Link to={'/PastaPizza'}>
                     <div className={styles.sidebarLogo}>
                         <span>P.</span>
                     </div>

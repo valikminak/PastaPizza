@@ -4,7 +4,7 @@ import SliderMain from "../Slider/Slider";
 import {Link} from "react-router-dom";
 
 const Hero = ({products}) => {
-
+debugger
 
     return (
         <div className={styles.hero}>
