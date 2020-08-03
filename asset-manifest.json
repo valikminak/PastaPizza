@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PastaPizza/static/css/main.9aeebf87.chunk.css",
-    "main.js": "/PastaPizza/static/js/main.df39a36a.chunk.js",
-    "main.js.map": "/PastaPizza/static/js/main.df39a36a.chunk.js.map",
+    "main.css": "/PastaPizza/static/css/main.351fea2a.chunk.css",
+    "main.js": "/PastaPizza/static/js/main.62008919.chunk.js",
+    "main.js.map": "/PastaPizza/static/js/main.62008919.chunk.js.map",
     "runtime-main.js": "/PastaPizza/static/js/runtime-main.3baa6cef.js",
     "runtime-main.js.map": "/PastaPizza/static/js/runtime-main.3baa6cef.js.map",
     "static/css/2.2cb6c84a.chunk.css": "/PastaPizza/static/css/2.2cb6c84a.chunk.css",
     "static/js/2.3cc206f6.chunk.js": "/PastaPizza/static/js/2.3cc206f6.chunk.js",
     "static/js/2.3cc206f6.chunk.js.map": "/PastaPizza/static/js/2.3cc206f6.chunk.js.map",
     "index.html": "/PastaPizza/index.html",
-    "precache-manifest.dec01170ca0170f5083bbfb54ca58ec9.js": "/PastaPizza/precache-manifest.dec01170ca0170f5083bbfb54ca58ec9.js",
+    "precache-manifest.f8d72b6a2053befc093cd1668d4722fa.js": "/PastaPizza/precache-manifest.f8d72b6a2053befc093cd1668d4722fa.js",
     "service-worker.js": "/PastaPizza/service-worker.js",
     "static/css/2.2cb6c84a.chunk.css.map": "/PastaPizza/static/css/2.2cb6c84a.chunk.css.map",
-    "static/css/main.9aeebf87.chunk.css.map": "/PastaPizza/static/css/main.9aeebf87.chunk.css.map",
+    "static/css/main.351fea2a.chunk.css.map": "/PastaPizza/static/css/main.351fea2a.chunk.css.map",
     "static/js/2.3cc206f6.chunk.js.LICENSE.txt": "/PastaPizza/static/js/2.3cc206f6.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/PastaPizza/static/media/slick.f97e3bbf.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.3baa6cef.js",
     "static/css/2.2cb6c84a.chunk.css",
     "static/js/2.3cc206f6.chunk.js",
-    "static/css/main.9aeebf87.chunk.css",
-    "static/js/main.df39a36a.chunk.js"
+    "static/css/main.351fea2a.chunk.css",
+    "static/js/main.62008919.chunk.js"
   ]
 }
