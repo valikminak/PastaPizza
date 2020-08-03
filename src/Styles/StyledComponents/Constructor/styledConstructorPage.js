@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ProductPiecesSectionStyles = styled.div`
-    display: ${props => (props.show ? "block" : "none")};
+    display: ${({show}) => show ? "block" : "none"};
     position: absolute;
     top: 41px;
     right: 157px;
@@ -29,7 +29,7 @@ const ProductPiecesSectionStyles = styled.div`
 `;
 
 
-const ProductPiecesSection = ({children, show}) => {
+const ProductPiecesSection = ({ children, show }) => {
     return <ProductPiecesSectionStyles show={show}>{children}</ProductPiecesSectionStyles>
 };
 

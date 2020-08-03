@@ -26,13 +26,13 @@ width: 200px;
 }
 `;
 
-export const BasketSection = ({children, isShowBasket}) => {
+export const BasketSection = ({ children, isShowBasket }) => {
     return <BasketSectionStyles isShowBasket={isShowBasket}>{children}</BasketSectionStyles>
 };
 
 
 const ProductBasketPiecesSectionStyles = styled.div`
-    display:${(props)=>(props.show?"block":"none")};
+    display:${({show})=>show?"block":"none"};
     position: absolute;
     top: 18px;
     right: 14px;
@@ -49,6 +49,6 @@ right: 0px;
 `;
 
 
-export const ProductBasketPiecesSection = ({children, show}) => {
+export const ProductBasketPiecesSection = ({ children, show }) => {
     return <ProductBasketPiecesSectionStyles show={show}>{children}</ProductBasketPiecesSectionStyles>
 };

@@ -1,10 +1,9 @@
 import React from "react";
 import styles from'./Hero.module.scss'
 import SliderMain from "../Slider/Slider";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Hero = ({products}) => {
-debugger
+const Hero = ({ products }) => {
 
     return (
         <div className={styles.hero}>

@@ -28,7 +28,7 @@ export const fetchAllProducts = () => async dispatch => {
 
 
 //Basket
-export const addProductToBasket = (product) => async dispatch => {
+export const addProductToBasket = (product) => dispatch => {
     dispatch({
         type: ADD_PRODUCT_TO_BASKET_SUCCESS,
         payload: product
@@ -36,7 +36,7 @@ export const addProductToBasket = (product) => async dispatch => {
 
 };
 
-export const deleteProductFromBasket = (id) => async dispatch => {
+export const deleteProductFromBasket = (id) => dispatch => {
     dispatch({
         type: DELETE_PRODUCT_FROM_BASKET_SUCCESS,
         payload: id

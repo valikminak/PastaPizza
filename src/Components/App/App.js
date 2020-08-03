@@ -1,10 +1,10 @@
 import React from "react";
-import {Route, Switch, withRouter} from "react-router";
+import { Route, Switch, withRouter } from "react-router";
 import styles from './App.module.scss'
 import './Transitions.css'
-import {connect} from "react-redux";
-import {compose} from "redux";
-import {CSSTransition, SwitchTransition} from "react-transition-group";
+import { connect } from "react-redux";
+import { compose } from "redux";
+import { CSSTransition, SwitchTransition } from "react-transition-group";
 import styled from "styled-components";
 
 import HeaderContainer from "../Header/HeaderContainer";
@@ -12,16 +12,17 @@ import Sidebar from "../Sidebar/Sidebar";
 import HeroContainer from "../Hero/HeroContainer";
 import OrderContainer from "../Order/OrderContainer";
 import ConstructorContainer from "../Constructor/ConstructorContainer";
-import {fetchAllProducts} from "../../Actions/action";
+import { fetchAllProducts } from "../../Actions/action";
 import ProductsLayoutContainer from "../Layout/ProductsLayoutContainer";
 import BasketContainer from "../Basket/BasketContainer";
-import {BasketSection} from "../../Styles/StyledComponents/Basket/styledBaskedPage";
+import { BasketSection } from "../../Styles/StyledComponents/Basket/styledBaskedPage";
+import { SidebarSection } from "../../Styles/StyledComponents/Sidebar/styledSidebarPage";
 
 
 const Container = styled.div`
 max-width:1882px;
 margin:0 auto;
-overflow-y:${({location}) => location.pathname === "/PastaPizza/" || location.pathname === "/PastaPizza" || location.pathname.includes("/order") || location.pathname.includes("/constructor") ? "hidden" : "visible"};
+overflow-y:${({ location }) => location.pathname === "/PastaPizza/" || location.pathname === "/PastaPizza" || location.pathname.includes("/order") || location.pathname.includes("/constructor") ? "hidden" : "visible"};
 `;
 
 class App extends React.Component {
@@ -29,7 +30,8 @@ class App extends React.Component {
         super(props);
         this.state = {
             isShowBasket: false,
-            isShowConfirm: false
+            isShowConfirm: false,
+            isShowSidebar: false
         };
     }
 
@@ -46,25 +48,34 @@ class App extends React.Component {
     basketState = (isShow) => {
         this.setState({
             isShowBasket: isShow,
+            isShowSidebar:false,
         })
     };
     confirmState = (isShow) => {
         this.setState({
             isShowConfirm: isShow
+
+        })
+    };
+    setShowSidebar = (isShow) => {
+        this.setState(()=>{
+            return{
+                isShowSidebar:isShow,
+                isShowBasket: false,
+            }
         })
     };
 
-
     render() {
-        const {location} = this.props;
+        const { location } = this.props;
         return (
             <Container location={location}>
+                <SidebarSection isShowSidebar={this.state.isShowSidebar}>
+                    <Sidebar setShowSidebar={this.setShowSidebar}/>
+                </SidebarSection>
                 <div className={styles.app}>
                     <div className={styles.header}>
-                        <HeaderContainer basketState={this.basketState}/>
-                    </div>
-                    <div className={styles.sidebar}>
-                        <Sidebar/>
+                        <HeaderContainer basketState={this.basketState} setShowSidebar={this.setShowSidebar}/>
                     </div>
                     <div className={styles.hero}>
                         <SwitchTransition location={location}>

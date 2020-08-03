@@ -1,10 +1,10 @@
-import React, {useState, useRef} from "react";
+import React, { useState, useRef } from "react";
 import './Acordion.scss'
-import {ProductBasketPiecesSection} from "../../Styles/StyledComponents/Basket/styledBaskedPage";
+import { ProductBasketPiecesSection } from "../../Styles/StyledComponents/Basket/styledBaskedPage";
 import ToppingsProducts from "./ToppingsProducts";
 
 
-const Accordion = ({ id,count,image,name,sumPrice, checkedProductsIds, allConstructorProducts, deleteFromBasket,checkedConstructorProducts,category, toppings}) => {
+const Accordion = ({ id,count,image,name,sumPrice, checkedProductsIds, allConstructorProducts, deleteFromBasket,checkedConstructorProducts,category, toppings }) => {
 
     const [setActive, setActiveState] = useState('');
     const [setHeight, setHeightState] = useState("0px");
@@ -21,8 +21,8 @@ const Accordion = ({ id,count,image,name,sumPrice, checkedProductsIds, allConstr
                         <tbody>
                         <tr>
                             <td className="basketContent__name">{name}</td>
-                            <td className="basketContent__image"><img
-                                src={image ? image : "https://res.cloudinary.com/minak/image/upload/v1594642610/emptyPizza_tnmk15.svg"} alt="Pizza"/>
+                            <td className="basketContent__image">
+                                <img src={image ? image : "https://res.cloudinary.com/minak/image/upload/v1594642610/emptyPizza_tnmk15.svg"} alt="Pizza"/>
                                 {allConstructorProducts.map((item) =>
                                     <ProductBasketPiecesSection
                                         key={item.id}

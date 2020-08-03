@@ -1,16 +1,16 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import classNames from "classnames/bind";
 import styles from "./Order.module.scss";
 import './Transitions.css'
-import {SectionSizeButtons} from "../../Styles/StyledComponents/Order/styledOrderPage";
-import {OrderToppings} from "./OrderTopings";
-import {CSSTransition} from "react-transition-group";
+import { SectionSizeButtons } from "../../Styles/StyledComponents/Order/styledOrderPage";
+import { OrderToppings } from "./OrderTopings";
+import { CSSTransition } from "react-transition-group";
 
 
 
-const OrderItem = ({product, addProductToBasket,basketState,toppings}) => {
+const OrderItem = ({ product, addProductToBasket,basketState,toppings }) => {
 
-    const {name, image, category, price, structure} = product;
+    const { name, image, category, price, structure } = product;
 
     const sizes = [
         {size: 'Small', weight: 320, number: 1, id: Date.now()},
@@ -77,7 +77,7 @@ const OrderItem = ({product, addProductToBasket,basketState,toppings}) => {
         disabled: multipliedSum.length === 1
     });
 
-    const placeOrder = () => {
+        const placeOrder = () => {
         const orderedToppings = [];
         for (let i = 0; i < chosenToppings.length; i++) {
             orderedToppings.push(toppings.find((item) => item.number === chosenToppings[i]))

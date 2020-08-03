@@ -14,5 +14,5 @@ const Cheese = ({cheese, addProductClass, addProduct, removeProduct}) => {
             )}
         </>
     )
-}
+};
 export default Cheese

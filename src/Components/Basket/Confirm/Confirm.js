@@ -1,11 +1,11 @@
 import React from "react";
 import '../Basket.scss'
-import {Form, Formik} from "formik";
+import { Form, Formik } from "formik";
 import * as Yup from 'yup'
 import FormControl from "./FormControl";
 
 
-const Confirm = ({confirmState}) => {
+const Confirm = ({ confirmState }) => {
     const initialValues = {
         name: '',
         surname: '',
@@ -25,7 +25,9 @@ const Confirm = ({confirmState}) => {
             .max(20, "Many numbers")
             .required("Need your number"),
     });
-    const onSubmit = values => console.log(values);
+    const onSubmit = values => {
+        console.log(values);
+    };
     return (
         <div className="confirm">
             <span className='confirmBack' onClick={()=>confirmState(false)}>Back</span>

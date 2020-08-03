@@ -1,10 +1,10 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Order from "./Order";
-import {connect} from "react-redux";
-import {getProductById} from "../../Selectors/Selectors";
-import {addProductToBasket} from "../../Actions/action";
-import {compose} from "redux";
-import {withRouter} from "react-router";
+import { connect } from "react-redux";
+import { getProductById } from "../../Selectors/Selectors";
+import { addProductToBasket } from "../../Actions/action";
+import { compose } from "redux";
+import { withRouter } from "react-router";
 
 
 class OrderContainer extends Component {
@@ -19,7 +19,7 @@ class OrderContainer extends Component {
 
 
     render() {
-        const {orderProduct, addProductToBasket, history, basketState} = this.props;
+        const { orderProduct, addProductToBasket, history, basketState } = this.props;
         return (
             <>
                 <Order toppings={this.toppings} orderProduct={orderProduct} addProductToBasket={addProductToBasket} history={history}

@@ -1,18 +1,18 @@
-import React, {memo} from "react";
+import React, { memo } from "react";
 import styles from './Order.module.scss'
 import OrderItem from "./OrderItem";
 
 
 
-const Order = memo(({toppings,orderProduct,addProductToBasket,history,basketState})=>{
+const Order = memo(({ toppings,orderProduct,addProductToBasket,history,basketState })=>{
 
 
     const product = orderProduct && orderProduct.map((product) =>
         <OrderItem toppings={toppings} addProductToBasket={addProductToBasket} product={product} key={product.id}
                    basketState={basketState}/>);
-    const back=()=>{
+    const back = () => {
         history.goBack();
-    }
+    };
     return (
         <div className={styles.order}>
             <div className={styles.orderBackToMenu}>

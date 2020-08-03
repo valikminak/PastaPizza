@@ -1,8 +1,7 @@
 import React from "react";
 import ConstructorProducts from "../ConstructorProducts";
 
-const Vegetables = ({vegetables, addProductClass, addProduct, removeProduct}) => {
-
+const Vegetables = ({ vegetables, addProductClass, addProduct, removeProduct }) => {
 
 
     return (
@@ -17,5 +16,5 @@ const Vegetables = ({vegetables, addProductClass, addProduct, removeProduct}) =>
             )}
         </>
     )
-}
+};
 export default Vegetables

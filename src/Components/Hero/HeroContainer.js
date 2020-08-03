@@ -1,7 +1,7 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Hero from "./Hero";
-import {connect} from "react-redux";
-import {getProductsByCategory} from "../../Selectors/Selectors";
+import { connect } from "react-redux";
+import { getProductsByCategory } from "../../Selectors/Selectors";
 
 
 class HeroContainer extends Component {
@@ -17,5 +17,5 @@ const mapStateToProps = (state) => {
     return {
         products: getProductsByCategory(state.allProductsReducer.allProducts, "pizza")
     }
-}
+};
 export default connect(mapStateToProps,null)(HeroContainer)

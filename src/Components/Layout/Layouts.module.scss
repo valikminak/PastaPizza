@@ -5,8 +5,8 @@
   padding-bottom: 100px;
   position: absolute;
   top: 165px;
-  left: 250px;
-  width: 1590px;
+  left: 170px;
+  width: 1270px;
 
   &Title {
     position: absolute;
@@ -20,14 +20,13 @@
   &List {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-    grid-column-gap: 30px;
     grid-row-gap: 40px;
     position: relative;
   }
 
   &Item {
     position: relative;
-    @include flex('',center,column);
+    @include flex(flex-start, center, column);
     z-index: 2;
 
     & img {
@@ -39,7 +38,7 @@
     }
 
     &__add {
-      @include flex(center,center);
+      @include flex(center, center);
       width: 60px;
       height: 60px;
       background-color: $mainRouse;
@@ -59,7 +58,7 @@
     &__description {
       font-family: 'New York Large', sans-serif;
       font-weight: 500;
-      @include flex('',center,column);
+      @include flex('', center, column);
       width: 80%;
 
     }
@@ -85,9 +84,6 @@
 // MEDIA
 @media (max-width: 1600px) {
   .product {
-    left: 150px;
-    width: 1400px;
-
     &Title {
       top: -70px;
       font-size: 25px;
@@ -103,6 +99,7 @@
         width: 45px;
         height: 45px;
       }
+
       &__name {
         font-size: 20px;
       }
@@ -133,6 +130,7 @@
         width: 40px;
         height: 40px;
       }
+
       &__name {
         font-size: 18px;
       }
@@ -148,14 +146,19 @@
   .product {
     width: 1000px;
 
+    &List {
+          grid-row-gap: 10px;
+    }
+
     &Title {
       font-size: 18px;
     }
 
     &Item {
       & img {
-        max-height: 200px;
+        max-height: 180px;
       }
+
       &__image {
         min-height: 230px;
       }
@@ -166,74 +169,86 @@
 
 @media (max-width: 1024px) {
 
-  .product{
+  .product {
     width: 900px;
+    left: 100px;
   }
 }
 
 @media (max-width: 900px) {
-
-  .product{
+  .product {
     width: 800px;
   }
 }
-@media (max-width: 800px) {
 
-  .product{
+@media (max-width: 800px) {
+  .product {
     width: 700px;
+    left: 50px;
   }
 }
 
 @media (max-width: 700px) {
-  .product{
+  .product {
     width: 700px;
+    left: 0;
+
     &List {
       display: grid;
-      grid-template-columns: 6fr 6fr;
-      grid-column-gap: 0;
-      grid-row-gap: 10px;
+      grid-template-columns: 4fr 4fr 4fr;
       position: relative;
     }
   }
 }
+
 @media (max-width: 420px) {
-  .product{
+  .product {
     width: 200px;
     position: absolute;
-    left: 120px;
-    &Title{
+    left: 30px;
+
+    &Title {
       font-size: 11px;
       left: 10px;
     }
+
     &List {
       grid-row-gap: 0;
-      grid-column-gap: 10px;
+
     }
-    &Item{
+
+    &Item {
       align-items: start;
       text-align: center;
-      &__image{
+
+      &__image {
         min-height: 110px;
       }
-      & img{
+
+      & img {
         max-height: 100px;
       }
-      &__add{
+
+      &__add {
         font-size: 12px;
         width: 25px;
         height: 25px;
         margin-left: 35px;
       }
-      &__description{
+
+      &__description {
 
       }
-      &__price{
+
+      &__price {
         font-size: 12px;
       }
-      &__name{
+
+      &__name {
         font-size: 12px;
       }
-      &__structure{
+
+      &__structure {
         font-size: 6px;
       }
     }

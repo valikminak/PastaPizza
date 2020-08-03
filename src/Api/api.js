@@ -1,4 +1,4 @@
-import {pastaPizzaProducts} from "./MockProducts";
+import { pastaPizzaProducts } from "./MockProducts";
 
 
 export const fetchAllProducts = async () => {

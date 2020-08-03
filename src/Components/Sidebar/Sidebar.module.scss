@@ -2,7 +2,35 @@
 @import "src/Styles/mixins";
 
 .sidebar {
-  @include flex(flex-start,center);
+  &Wrapper {
+    background-image: url('https://res.cloudinary.com/minak/image/upload/v1594971566/PastaPizza/pastaPizzaSidebar_el3bzg.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    & .showSidebar {
+      display: none;
+      position: absolute;
+      top: 55px;
+      right: 0;
+      cursor: pointer;
+
+      & svg {
+        width: 20px;
+        margin-right: 10px;
+      }
+
+      &:hover svg path {
+        stroke: grey;
+      }
+    }
+  }
+
+  @include flex(flex-start, center);
   background-image: url('https://res.cloudinary.com/minak/image/upload/v1594971566/PastaPizza/pastaPizzaSidebar_el3bzg.png');
   background-size: cover;
   padding-left: 55px;
@@ -12,16 +40,6 @@
   width: 400px;
   height: 100%;
 
-  &Wrapper{
-    background-image: url('https://res.cloudinary.com/minak/image/upload/v1594971566/PastaPizza/pastaPizzaSidebar_el3bzg.png');
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    font-weight: 500;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-  }
 
   & a {
     cursor: pointer;
@@ -71,49 +89,60 @@
     }
   }
 }
+
 @media (max-width: 1500px) {
   .sidebar {
-    width: 300px;
-  }
-
-}
-@media (max-width: 1200px) {
-  .sidebar {
-    width: 250px;
+    width: 380px;
   }
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .sidebar {
-    font-size: 12px;
-    width: 200px;
+    width: 260px;
 
-    &Logo {
-      font-size: 30px;
+    &Wrapper {
+      z-index: 999;
+
+      .showSidebar {
+        display: block;
+      }
     }
   }
 }
 
+
 @media (max-width: 625px) {
   .sidebar {
     padding-left: 10px;
+
     &Logo {
       left: -148px;
       font-size: 20px;
     }
   }
 }
+
 @media (max-width: 450px) {
   .sidebar {
     font-size: 8px;
     width: 150px;
+
+    & .showSidebar {
+      left: 220px;
+      top: 23px;
+    }
+
     &Logo {
       width: 214px;
       height: 200px;
-      & span{
+
+      & span {
         right: 37px;
       }
+    }
+    &List{
+      margin-left: 50px;
     }
   }
 }

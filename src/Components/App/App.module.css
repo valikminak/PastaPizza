@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: "New York";
   overflow-x: hidden;
 }
 
@@ -35,15 +34,18 @@ button {
 .header {
   grid-area: header;
   background-color: #fff;
-}
-
-.sidebar {
-  grid-area: sidebar;
+  height: 60px;
 }
 
 .hero {
   grid-area: hero;
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    grid-template-columns: 0 12fr;
+  }
 }
 
 /*# sourceMappingURL=App.module.css.map */

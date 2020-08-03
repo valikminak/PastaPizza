@@ -1,7 +1,7 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Basket from "./Basket";
-import {connect} from "react-redux";
-import {deleteProductFromBasket} from "../../Actions/action";
+import { connect } from "react-redux";
+import { deleteProductFromBasket } from "../../Actions/action";
 import {
     totalBasketProductsPrice
 } from "../../Selectors/Selectors";
@@ -25,7 +25,7 @@ class BasketContainer extends Component {
 
 const mapStateToProps = (state) => ({
     products: state.basketReducer,
-    allConstructorProducts:state.allProductsReducer.allConstructorProducts,
+    allConstructorProducts: state.allProductsReducer.allConstructorProducts,
     totalProductsPrice: totalBasketProductsPrice(state),
-})
+});
 export default connect(mapStateToProps, {deleteProductFromBasket})(BasketContainer)

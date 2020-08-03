@@ -30,26 +30,26 @@ cursor: pointer;
 
 
 const SectionSizeButtonStyles = styled.div`
-    background-color: ${props => (props.chosenSize === props.number ? "#FFDF8C" : "#F7F5F7")};
-    border-bottom-left-radius: ${props => (props.size === "Small" ? "30px" : null)};
-    border-top-left-radius: ${props => (props.size === "Small" ? "30px" : null)};
-    border-bottom-right-radius: ${props => (props.size === "Large" ? "30px" : null)};
-    border-top-right-radius: ${props => (props.size === "Large" ? "30px" : null)};
+    background-color: ${({chosenSize,number}) => chosenSize === number ? "#FFDF8C" : "#F7F5F7"};
+    border-bottom-left-radius: ${({size}) => size === "Small" ? "30px" : null};
+    border-top-left-radius: ${({size}) => size === "Small" ? "30px" : null};
+    border-bottom-right-radius: ${({size}) => size === "Large" ? "30px" : null};
+    border-top-right-radius: ${({size}) => size === "Large" ? "30px" : null};
     ${mainSectionStyles}
 `;
 const SectionToppingsStyles = styled.div`
-    background-color: ${props => (props.chosenToppings.includes(props.number) ? "#FFDF8C" : "#F7F5F7")};
+    background-color: ${({chosenToppings,number}) => chosenToppings.includes(number) ? "#FFDF8C" : "#F7F5F7"};
     border-radius: 30px;
     ${mainSectionStyles}
 `;
 
-export const SectionSizeButtons = ({children, chosenSize, chooseSize, number, size}) => {
+export const SectionSizeButtons = ({ children, chosenSize, chooseSize, number, size }) => {
     return <SectionSizeButtonStyles onClick={() => chooseSize(number)} chosenSize={chosenSize}
                                     number={number} size={size}>{children}</SectionSizeButtonStyles>
 };
 
 
-export const ToppingsComponent = ({children, chosenToppings, chooseToppings, deleteItemFromArray, number}) => {
+export const ToppingsComponent = ({ children, chosenToppings, chooseToppings, deleteItemFromArray, number }) => {
     return <SectionToppingsStyles
         onClick={() => chooseToppings(chosenToppings.includes(number)
             ? () => deleteItemFromArray(number)

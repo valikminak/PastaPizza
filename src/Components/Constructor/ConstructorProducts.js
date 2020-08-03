@@ -1,4 +1,4 @@
-import React, {memo} from "react";
+import React, { memo } from "react";
 import styles from "./Constructor.module.scss";
 
 
@@ -34,6 +34,6 @@ const ConstructorProducts = memo((props) => {
             <span className={styles.itemPrice}>${price}</span>
         </div>
     )
-})
+});
 
 export default ConstructorProducts

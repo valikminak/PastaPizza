@@ -1,15 +1,14 @@
-import React, {Component} from "react";
-import {getProductsByCategory} from "../../Selectors/Selectors";
+import React, { Component } from "react";
+import { getProductsByCategory } from "../../Selectors/Selectors";
 import ProductsLayout from "./ProductsLayout";
-import {connect} from "react-redux";
-import {withRouter} from "react-router";
-import {compose} from "redux";
+import { connect } from "react-redux";
+import { withRouter } from "react-router";
+import { compose } from "redux";
 
 class ProductsLayoutContainer extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0)
-
     }
 
 

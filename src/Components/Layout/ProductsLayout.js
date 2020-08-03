@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Layouts.module.scss"
 import ItemLayout from "./ItemLayout";
 
-const ProductsLayout = ({ name,products }) => {
+const ProductsLayout = ({name, products}) => {
 
     return (
         <>
@@ -18,6 +18,6 @@ const ProductsLayout = ({ name,products }) => {
             </div>
         </>
     )
-}
+};
 
 export default ProductsLayout

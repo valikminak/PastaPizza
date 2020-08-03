@@ -1,11 +1,11 @@
-import {Route, Switch} from "react-router";
+import { Route, Switch } from "react-router";
 import Vegetables from "../Categories/Vegetables";
 import React from "react";
 import Fish from "../Categories/Fish";
 import Cheese from "../Categories/Cheese";
 import Meat from "../Categories/Meat";
 
-export const RoutesCategories = ({addProductClass, addProduct, removeProduct, vegetables, fish, cheese, meat,}) => {
+export const RoutesCategories = ({addProductClass, addProduct, removeProduct, vegetables, fish, cheese, meat}) => {
 
     return (
         <>
@@ -49,6 +49,6 @@ export const RoutesCategories = ({addProductClass, addProduct, removeProduct, ve
         </>
 
     )
-}
+};
 
 export default RoutesCategories

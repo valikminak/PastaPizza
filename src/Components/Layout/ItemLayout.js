@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Layouts.module.scss"
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
 
-const ItemLayout = ({id,image,price,name,structure}) => {
+const ItemLayout = ({ id,image,price,name,structure }) => {
     return (
         <div className={styles.productItem}>
             <div className={styles.productItem__image}>

@@ -4,9 +4,9 @@ import {
 } from "../ActionTypes";
 
 
-const inititalState = [];
+const initialState = [];
 
-export default (state = inititalState, {type, payload}) => {
+export default (state = initialState, { type, payload }) => {
     switch (type) {
         case ADD_PRODUCT_TO_BASKET_SUCCESS:
             return [

@@ -14,15 +14,21 @@
 .header {
   grid-area: header;
   background-color: #fff;
+  height: 60px;
 
 }
 
-.sidebar {
-  grid-area: sidebar;
-
-}
 
 .hero {
   grid-area: hero;
   width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+  .app{
+    grid-template-columns: 0 12fr;
+  }
+  .hero{
+  }
 }

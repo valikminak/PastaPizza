@@ -1,12 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styles from './Constructor.module.scss'
-import {SvgCheese, SvgFish, SvgMeat, SvgVegetable} from "../../SVG/Svg";
+import { SvgCheese, SvgFish, SvgMeat, SvgVegetable } from "../../SVG/Svg";
 import ProductPiecesSection from "../../Styles/StyledComponents/Constructor/styledConstructorPage";
 import RoutesCategories from "./RoutesCategories/RoutesCategories";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
-const Constructor = ({allConstructorProducts,vegetables, fish, cheese, meat, addProductToBasket,basketState}) => {
+const Constructor = ({ allConstructorProducts,vegetables, fish, cheese, meat, addProductToBasket,basketState }) => {
     const [addProductClass, onAddProductClass] = useState([]);
     const [addedRemovedPriceNumber, onAddRemovePriceNumber] = useState(0);
 

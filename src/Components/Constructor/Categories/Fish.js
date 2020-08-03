@@ -1,7 +1,7 @@
 import React from "react";
 import ConstructorProducts from "../ConstructorProducts";
 
-const Fish = ({fish, addProductClass, addProduct, removeProduct}) => {
+const Fish = ({ fish, addProductClass, addProduct, removeProduct }) => {
     return (
         <>
             {fish.map((product) => <ConstructorProducts
@@ -14,5 +14,5 @@ const Fish = ({fish, addProductClass, addProduct, removeProduct}) => {
             )}
         </>
     )
-}
+};
 export default Fish

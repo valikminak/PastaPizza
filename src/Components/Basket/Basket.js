@@ -3,12 +3,12 @@ import React from "react";
 import "./Basket.scss"
 
 import TransitionGroup from "react-transition-group/cjs/TransitionGroup";
-import {CSSTransition} from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 import Accordion from "../Accordion/Accordion";
 import Confirm from "./Confirm/Confirm";
 
 
-const Basket = ({products, totalProductsPrice, deleteProductFromBasket, basketState, allConstructorProducts, isShowConfirm, confirmState,orderedConstructorProducts}) => {
+const Basket = ({ products, totalProductsPrice, deleteProductFromBasket, basketState, allConstructorProducts, isShowConfirm, confirmState,orderedConstructorProducts }) => {
 
 
     const deleteFromBasket = (id) => {
@@ -40,8 +40,7 @@ const Basket = ({products, totalProductsPrice, deleteProductFromBasket, basketSt
     )
 };
 
-    const BasketContent = ({products, deleteFromBasket, allConstructorProducts, totalProductsPrice, confirmState,}) => {
-
+    const BasketContent = ({ products, deleteFromBasket, allConstructorProducts, totalProductsPrice, confirmState }) => {
     return (
         <div className="basketContent">
             <TransitionGroup>

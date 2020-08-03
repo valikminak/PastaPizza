@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {applyMiddleware, createStore} from "redux";
-import {createBrowserHistory} from "history";
-import {composeWithDevTools} from 'redux-devtools-extension'
+import { applyMiddleware, createStore } from "redux";
+import { createBrowserHistory } from "history";
+import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
-import {routerMiddleware, ConnectedRouter} from "connected-react-router";
-import {Provider} from "react-redux";
+import { routerMiddleware, ConnectedRouter } from "connected-react-router";
+import { Provider } from "react-redux";
 import createRootReducer from './Reducers/Index'
 import App from "./Components/App/App";
 const history = createBrowserHistory();

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ToppingsProducts = ({category, toppings, id, checkedConstructorProducts}) => {
+const ToppingsProducts = ({ category, toppings, id, checkedConstructorProducts }) => {
     switch (category) {
         case "pizza":
             return <>

@@ -1,15 +1,20 @@
 @import "src/Styles/mixins";
 @import "src/Styles/colors";
+
 .header {
   position: relative;
+  @include flex(flex-end, center);
+
+  &Toggle {
+    display: none;
+    cursor: pointer;
+  }
 
   &Basket {
-    @include flex(center,center);
-    position: absolute;
-    right: 50px;
-    top: 0;
+    @include flex(center, center);
     font-family: 'New York Large', sans-serif;
     text-transform: uppercase;
+    margin-right: 30px;
     font-size: 12px;
     cursor: pointer;
     opacity: 1;
@@ -20,7 +25,7 @@
     }
 
     &__count {
-      @include flex(center,center);
+      @include flex(center, center);
       height: 30px;
       width: 30px;
       border-radius: 50%;
@@ -29,22 +34,32 @@
       margin-left: 10px;
     }
   }
-
-
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 1024px) {
   .header {
-    margin-top: 20px;
+    position: relative;
+
+    &Toggle {
+      display: block;
+      position: absolute;
+      top: 35px;
+      left: 30px;
+    }
+
     &Basket {
+      position: absolute;
+      top: 20px;
       right: 30px;
       font-size: 10px;
+
       &__count {
         height: 20px;
         width: 20px;
       }
-      & img{
+
+      & img {
         width: 50px;
       }
     }
