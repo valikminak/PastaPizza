@@ -8,6 +8,8 @@ import {
 
 
 class BasketContainer extends Component {
+
+
     render() {
         const {products, totalProductsPrice, deleteProductFromBasket,
             basketState,allConstructorProducts,isShowConfirm,confirmState} = this.props;

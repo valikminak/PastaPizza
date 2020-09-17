@@ -5,14 +5,14 @@ import * as Yup from 'yup'
 import FormControl from "./FormControl";
 
 
-const Confirm = ({ confirmState }) => {
+const Confirm = ({confirmState}) => {
     const initialValues = {
         name: '',
         surname: '',
         phone: ''
     };
     const validationSchema = Yup.object({
-        name:Yup.string()
+        name: Yup.string()
             .min(2, "Need more letters")
             .max(23, "Many letters")
             .required("Need your name"),
@@ -30,7 +30,7 @@ const Confirm = ({ confirmState }) => {
     };
     return (
         <div className="confirm">
-            <span className='confirmBack' onClick={()=>confirmState(false)}>Back</span>
+            <span className='confirmBack' onClick={() => confirmState(false)}>Back</span>
             <Formik
                 initialValues={initialValues}
                 validationSchema={validationSchema}
@@ -47,6 +47,7 @@ const Confirm = ({ confirmState }) => {
             </Formik>
         </div>
     )
-}
+};
+
 
 export default Confirm

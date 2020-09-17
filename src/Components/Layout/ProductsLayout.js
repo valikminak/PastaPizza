@@ -1,9 +1,10 @@
-import React from "react";
+import React, {Suspense} from "react";
 import styles from "./Layouts.module.scss"
-import ItemLayout from "./ItemLayout";
+import Preloader from "../Preloader/Preloader";
+
+const ItemLayout = React.lazy(() => import ("./ItemLayout"));
 
 const ProductsLayout = ({name, products}) => {
-
     return (
         <>
             <div className={styles.product}>
@@ -11,9 +12,11 @@ const ProductsLayout = ({name, products}) => {
                     <h2>{name}</h2>
                 </div>
                 <div className={styles.productList}>
-                    {products && products.map((item) =>
-                        <ItemLayout  {...item} key={item.id}/>
-                    )}
+                      <Suspense fallback={<Preloader/>}>
+                        {products && products.map((item) =>
+                            <ItemLayout  {...item} key={item.id}/>
+                        )}
+                    </Suspense>
                 </div>
             </div>
         </>

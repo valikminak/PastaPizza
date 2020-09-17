@@ -17,3 +17,5 @@ const totalBasketProductsPriceSelector = (state) => {
     return state.basketReducer.map(({sumPrice}) => +sumPrice);
 };
 export const totalBasketProductsPrice = createSelector(totalBasketProductsPriceSelector, (sumPrice) => sumPrice.length > 0 ? sumPrice.reduce((acc, curr) => acc + curr) : 0);
+
+

@@ -9,6 +9,7 @@ export const SidebarSection = styled.div`
         top:0;
         width:260px;
         height:100vh;
+        transition:all .5s;
         transform:${({isShowSidebar}) => isShowSidebar ? "translateX(0px)" : "translateX(-260px)"};
         z-index:999;
         }
