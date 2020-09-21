@@ -1,5 +1,5 @@
 import React, {Suspense, lazy} from "react";
-import {Route, Switch, withRouter} from "react-router";
+import {Redirect, Route, Switch, withRouter} from "react-router";
 import styles from './App.module.scss'
 import './Transitions.css'
 import {connect} from "react-redux";
