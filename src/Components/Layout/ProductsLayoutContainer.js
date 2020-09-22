@@ -11,9 +11,9 @@ class ProductsLayoutContainer extends Component {
         window.scrollTo(0,0)
     }
 
-
     render() {
         const {name, products} = this.props;
+
         return (
             <>
                 <ProductsLayout name={name} products={products}/>

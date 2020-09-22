@@ -20,6 +20,7 @@ class OrderContainer extends Component {
 
     render() {
         const { orderProduct, addProductToBasket, history, basketState } = this.props;
+        console.log(orderProduct)
         return (
             <>
                 <Order toppings={this.toppings} orderProduct={orderProduct} addProductToBasket={addProductToBasket} history={history}

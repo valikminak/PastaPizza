@@ -1,5 +1,5 @@
 import React, {Suspense, lazy} from "react";
-import {Redirect, Route, Switch, withRouter} from "react-router";
+import { Route, Switch, withRouter } from "react-router";
 import styles from './App.module.scss'
 import './Transitions.css'
 import {connect} from "react-redux";
@@ -84,8 +84,7 @@ class App extends React.Component {
                         <SwitchTransition location={location}>
                             <CSSTransition key={location.key} timeout={1000} delay={300} classNames={'animPages'}>
                                 <Switch>
-                                    <Route path={'/products/:product?'}
-                                           render={() => <ProductsLayoutContainer/>}/>
+                                    <Route path={'/products/:product?'} render={() => <ProductsLayoutContainer/>}/>
                                 </Switch>
                             </CSSTransition>
                         </SwitchTransition>
@@ -94,9 +93,8 @@ class App extends React.Component {
                             <Suspense fallback={<Preloader/>}>
                                 <Route path={'/constructor/:category?'}
                                        render={() => <ConstructorContainer basketState={this.basketState}/>}/>
+                                <Route path={'/order/:id?'} render={() => <OrderContainer basketState={this.basketState}/>}/>
                             </Suspense>
-                            <Route path={'/order/:id?'}
-                                   render={() => <OrderContainer basketState={this.basketState}/>}/>
                         </Switch>
                     </div>
                     <div>
