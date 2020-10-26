@@ -25,7 +25,7 @@ const ConstructorContainer = lazy(() => import('../Constructor/ConstructorContai
 const Container = styled.div`
 max-width:1882px;
 margin:0 auto;
-overflow-y:${({location}) => location.pathname === "/PastaPizza/" || location.pathname === "/PastaPizza" || location.pathname.includes("/order") || location.pathname.includes("/constructor") ? "hidden" : "visible"};
+overflow-y:${({location}) => location.pathname === "/PastaPizza/" || location.pathname === "/PastaPizza" || location.pathname.includes("/order") || location.pathname.includes("/constructor") ? "hidden" : "scroll"};
 `;
 
 class App extends React.Component {
