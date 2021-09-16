@@ -1,10 +1,14 @@
 import React, {Suspense} from "react";
 import styles from "./Layouts.module.scss"
 import Preloader from "../Preloader/Preloader";
+import {compose} from "redux";
+import {connect} from "react-redux";
+import {withRouter} from "react-router";
 
 const ItemLayout = React.lazy(() => import ("./ItemLayout"));
 
 const ProductsLayout = ({name, products}) => {
+    
     return (
         <>
             <div className={styles.product}>
@@ -23,4 +27,13 @@ const ProductsLayout = ({name, products}) => {
     )
 };
 
-export default ProductsLayout
+const mapStateToProps = (state) => ({
+    products: state.allProductsReducer.products
+});
+
+export default compose(
+    connect(mapStateToProps, null),
+    withRouter
+)(ProductsLayout)
+
+

@@ -1,11 +1,12 @@
 import React from "react";
 import styles from './Sidebar.module.scss'
-import { NavLink, Link } from "react-router-dom";
+import {NavLink, Link} from "react-router-dom";
+import {compose} from "redux";
+import {connect} from "react-redux";
+import {withRouter} from "react-router";
 
 
-
-
-const Sidebar = ({ setShowSidebar }) => {
+const Sidebar = ({setShowSidebar, categories}) => {
     return (
         <div className={styles.sidebarWrapper}>
             <div className={styles.sidebar}>
@@ -23,14 +24,9 @@ const Sidebar = ({ setShowSidebar }) => {
                     </Link>
                 </div>
                 <ul className={styles.sidebarList}>
-
-                    <li><NavLink activeClassName={styles.active} to={'/products/pizza'}> Pizza</NavLink></li>
-                    <li><NavLink activeClassName={styles.active} to={'/products/pasta'}> Pasta</NavLink></li>
-                    <li><NavLink activeClassName={styles.active} to={'/products/sandwiches'}> Sandwiches</NavLink></li>
-                    <li><NavLink activeClassName={styles.active} to={'/products/soups'}> Soups</NavLink></li>
-                    <li><NavLink activeClassName={styles.active} to={'/products/salads'}> Salads</NavLink></li>
-                    <li><NavLink activeClassName={styles.active} to={'/products/desserts'}> Desserts</NavLink></li>
-                    <li><NavLink activeClassName={styles.active} to={'/products/drinks'}> Drinks</NavLink></li>
+                    {categories && categories.map((cat) =>
+                        <li key={cat.id}><NavLink activeClassName={styles.active} to={`/products/${cat.name}`}> {cat.name}</NavLink></li>
+                    )}
                     <li>
                         <NavLink activeClassName={styles.active} to={'/constructor'}>
                             Constructor
@@ -43,4 +39,12 @@ const Sidebar = ({ setShowSidebar }) => {
     )
 };
 
-export default Sidebar
+
+const mapStateToProps = (state) => ({
+    categories: state.allProductsReducer.categories
+});
+
+export default compose(
+    connect(mapStateToProps, null),
+    withRouter
+)(Sidebar)

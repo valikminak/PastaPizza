@@ -1,18 +1,19 @@
-import {GET_ALL_CATEGORIES_SUCCESS, GET_ALL_PRODUCTS_SUCCESS} from "../ActionTypes";
+import {GET_ALL_CATEGORIES_SUCCESS, GET_PRODUCTS_BY_CATEGORY_SUCCESS} from "../ActionTypes";
 
 const initialState = {
-    allProducts: [],
-    allConstructorProducts: []
+    products: [],
+    allConstructorProducts: [],
+    categories: []
 
 };
 
 export default (state = initialState, {type, payload}) => {
     switch (type) {
-        case GET_ALL_PRODUCTS_SUCCESS:
+        case GET_PRODUCTS_BY_CATEGORY_SUCCESS:
             return {
                 ...state,
-                allProducts: [...state.allProducts, ...payload],
-                allConstructorProducts: [...state.allConstructorProducts, ...payload.filter((item) => item.constructor === true)]
+                products: [...state.products, ...payload],
+                // allConstructorProducts: [...state.allConstructorProducts, ...payload.filter((item) => item.constructor === true)]
             };
 
         case GET_ALL_CATEGORIES_SUCCESS:
