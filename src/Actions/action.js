@@ -3,10 +3,11 @@ import {
     GET_ALL_PRODUCTS_SUCCESS,
     GET_ALL_PRODUCTS_FAILURE,
     DELETE_PRODUCT_FROM_BASKET_SUCCESS,
-    ADD_PRODUCT_TO_BASKET_SUCCESS,
+    ADD_PRODUCT_TO_BASKET_SUCCESS, GET_ALL_CATEGORIES_START, GET_ALL_CATEGORIES_SUCCESS, GET_ALL_CATEGORIES_FAILURE,
 } from "../ActionTypes";
 import {
     fetchAllProducts as fetchAllProductsApi,
+    getAllCategories as getAllCategoriesApi
 } from '../Api/api'
 
 export const fetchAllProducts = () => async dispatch => {
@@ -20,6 +21,23 @@ export const fetchAllProducts = () => async dispatch => {
     } catch (err) {
         dispatch({
             type: GET_ALL_PRODUCTS_FAILURE,
+            payload: err,
+            error: true
+        })
+    }
+};
+
+export const getAllCategories = () => async dispatch => {
+    dispatch({type: GET_ALL_CATEGORIES_START});
+    try {
+        const categories = await getAllCategoriesApi();
+        dispatch({
+            type: GET_ALL_CATEGORIES_SUCCESS,
+            payload: categories
+        })
+    } catch (err) {
+        dispatch({
+            type: GET_ALL_CATEGORIES_FAILURE,
             payload: err,
             error: true
         })

@@ -17,6 +17,7 @@ import BasketContainer from "../Basket/BasketContainer";
 import {BasketSection} from "../../Styles/StyledComponents/Basket/styledBaskedPage";
 import {SidebarSection} from "../../Styles/StyledComponents/Sidebar/styledSidebarPage";
 import Preloader from "../Preloader/Preloader";
+import {getAllCategories} from "../../Actions/action";
 
 //Lazy
 const ConstructorContainer = lazy(() => import('../Constructor/ConstructorContainer'));
@@ -40,6 +41,7 @@ class App extends React.Component {
 
     componentDidMount() {
         this.props.fetchAllProducts();
+        this.props.getAllCategories();
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -111,6 +113,6 @@ class App extends React.Component {
 }
 
 export default compose(
-    connect(null, {fetchAllProducts}),
+    connect(null, {fetchAllProducts, getAllCategories}),
     withRouter
 )(App)
